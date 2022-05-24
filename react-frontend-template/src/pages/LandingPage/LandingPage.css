@@ -1,0 +1,35 @@
+body {
+  color: #fff;
+  background: #0e0e0e;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.nav-logo {
+  padding-left: 3rem;
+}
+
+.navbar-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  list-style-type: none;
+  font-size: 1.2rem;
+  border-bottom: 1px solid gray;
+}
+
+.navbar-top li {
+  cursor: pointer;
+  font-weight: 300;
+  transition: all 200ms;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.navbar-top li:hover {
+  color: #fbb03b;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}

@@ -1,7 +1,8 @@
-import React from "react";
+import TopNav from "./TopNav";
+import "./LandingPage.css";
 
 const LandingPage = () => {
-  return <div>LandingPage</div>;
+  return <TopNav />;
 };
 
 export default LandingPage;
