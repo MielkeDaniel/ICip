@@ -1,0 +1,57 @@
+.page-heading {
+  color: #cdb17a;
+  text-align: center;
+  font-size: 5rem;
+  position: relative;
+  z-index: 3;
+  padding-top: 50vh;
+}
+
+.logo-wrapper {
+  width: 100vh;
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svgBox svg {
+  fill: none;
+  stroke-width: 7;
+  transform: scale(3);
+  stroke: url(#col);
+  stroke-dasharray: 60 172;
+  stroke-linecap: round;
+  animation: lr 4s linear infinite;
+  position: absolute;
+}
+
+@keyframes lr {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 232;
+  }
+}
+
+.svgBox svg:nth-of-type(1) {
+  animation: none;
+  stroke: #1d1a0c;
+  stroke-dasharray: none;
+}
+.svgBox svg:nth-of-type(2) {
+  filter: blur(3px);
+}
+
+#particle-bg {
+  margin-top: 5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
