@@ -3,7 +3,7 @@
 particlesJS("particle-bg", {
   particles: {
     number: {
-      value: 200,
+      value: 800,
       density: {
         enable: true,
         value_area: 2000,
@@ -73,7 +73,7 @@ particlesJS("particle-bg", {
     detect_on: "canvas",
     events: {
       onhover: {
-        enable: true,
+        enable: false,
         mode: "grab",
       },
       onclick: {

@@ -1,0 +1,103 @@
+body {
+  box-sizing: border-box;
+  color: #fff;
+  background: #040404;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+@media (min-width: 1100px) {
+  /* ---------------------- Navbar ---------------------- */
+  .lg-topbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    list-style-type: none;
+    font-size: 1.2rem;
+    border-bottom: 1px solid gray;
+  }
+
+  #nav-menu {
+    display: flex;
+  }
+
+  #nav-menu li {
+    transition: all 150ms;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  #nav-menu li:hover {
+    color: #fbb03b;
+  }
+
+  #menuToggle input {
+    display: none;
+  }
+
+  /* ---------------------- Navbar END ---------------------- */
+
+  /* ---------------------- Heading ---------------------- */
+  .page-heading {
+    color: #cdb17a;
+    text-align: center;
+    font-size: 5rem;
+    position: relative;
+    z-index: 3;
+    padding-top: 50vh;
+  }
+  /* ---------------------- Heading END ---------------------- */
+
+  /* ---------------------- Animated Logo ---------------------- */
+  .logo-wrapper {
+    width: 100vh;
+    height: 100vh;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .svgBox svg {
+    fill: none;
+    stroke-width: 7;
+    transform: scale(4);
+    stroke: url(#col);
+    stroke-dasharray: 60 172;
+    stroke-linecap: round;
+    animation: lr 4s linear infinite;
+    position: absolute;
+  }
+
+  @keyframes lr {
+    0% {
+      stroke-dashoffset: 0;
+    }
+    100% {
+      stroke-dashoffset: 232;
+    }
+  }
+
+  .svgBox svg:nth-of-type(1) {
+    animation: none;
+    stroke: #1d1a0c;
+    stroke-dasharray: none;
+  }
+
+  .svgBox svg:nth-of-type(2) {
+    filter: blur(1px);
+  }
+  /* ---------------------- Animated Logo END ---------------------- */
+
+  /* ---------------------- Animated Background ---------------------- */
+  #particle-bg {
+    margin-top: 5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  /* ---------------------- Animated Background END ---------------------- */
+}

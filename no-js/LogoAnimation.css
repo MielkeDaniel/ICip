@@ -21,7 +21,7 @@
 .svgBox svg {
   fill: none;
   stroke-width: 7;
-  transform: scale(3);
+  transform: scale(4);
   stroke: url(#col);
   stroke-dasharray: 60 172;
   stroke-linecap: round;
@@ -44,7 +44,7 @@
   stroke-dasharray: none;
 }
 .svgBox svg:nth-of-type(2) {
-  filter: blur(3px);
+  filter: blur(1px);
 }
 
 #particle-bg {
