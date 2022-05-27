@@ -1,3 +1,9 @@
+/* Wir wissen, dass wir mobile first entwickeln sollen, und demnach auch gerne so gut es geht nur mit min-width queries arbeiten sollen. 
+   In diesem Falle ist es jedoch wesentlich einfacher die beiden Arten der nav (Topbar und Sidebar und Hamburger-Dropout) getrennt voneinander 
+   zu stylen, da sie in ihrer Funktionalität sehr unterschiedlich sind und wenig gemeinsame haben, was man mit einem späteren min-width query 
+   im großen Layout alleine nur schwer und mit großem Mehraufwand hinbekommt. 
+   Demnach arbeiten wir hier ausnahmsweise mit max-width im Small- und mit mind-width im Large-Layout.     
+*/
 @media (max-width: 1099px) {
   #menuToggle {
     display: block;
@@ -48,7 +54,7 @@
     margin-bottom: 5px;
     position: relative;
 
-    background: #cdcdcd;
+    background: #828282;
     border-radius: 3px;
 
     z-index: 1;
@@ -101,7 +107,7 @@
     padding: 50px;
     padding-top: 125px;
 
-    background: #ededed;
+    background: #dbdbdb;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
 

@@ -353,3 +353,14 @@ template {
 li {
   list-style-type: none;
 }
+
+a {
+  text-decoration: none;
+}
+
+body {
+  box-sizing: border-box;
+  color: black;
+  background: #fafafa;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
