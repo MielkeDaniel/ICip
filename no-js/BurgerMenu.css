@@ -19,7 +19,7 @@
   }
 
   #menuToggle a:hover {
-    color: tomato;
+    color: #fbb03b;
   }
 
   #menuToggle input {
@@ -123,7 +123,7 @@
   /*
  * And let's slide it in from the left
  */
-  #menuToggle input:checked ~ ul {
+  #menuToggle input:checked ~ div ul {
     transform: none;
   }
 }
