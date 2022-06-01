@@ -1,0 +1,50 @@
+.section-one-heading {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+}
+
+.section-one-description {
+  margin: auto;
+  font-size: 2rem;
+  width: 92%;
+  text-align: left;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+
+.section-one-bridge {
+  height: 10rem;
+  background: linear-gradient(0deg, #d1d8fc, #fafafa);
+}
+
+.section-two {
+  background-color: #d1d8fc;
+}
+
+.section-image {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.section-two-bridge {
+  height: 10rem;
+  background: linear-gradient(0deg, #ffffff, #d1d8fc);
+}
+
+.section-three-video {
+  display: block;
+  margin: 0 auto;
+}
+
+.video-description {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: underline;
+}
