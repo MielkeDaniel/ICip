@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="assets/GlobalCSS/Button.css" />
     <link rel="stylesheet" href="assets/GlobalCSS/InputField.css" />
     <link rel="stylesheet" href="assets/GlobalCSS/Footer.css" />
+    <link rel="stylesheet" href="assets/GlobalCSS/ReusableClasses.css" />
+    <link rel="stylesheet" href="assets/GlobalCSS/Card.css" />
     <!-- CSS END -->
 
     <title>DFINITY INFO</title>
@@ -82,38 +84,135 @@
     </header>
     <!-- Hero Section END -->
 
-    <div class="bridge"></div>
-    <div class="content-wrapper">
-      <button class="btn btn-3 hover-border-3">
-        <span>Button</span>
-      </button>
+    <div class="section-one-bridge"></div>
 
-      <div class="input-group">
-        <input
-          required
-          type="text"
-          name="text"
-          autocomplete="off"
-          class="input"
-        />
-        <label class="user-label">Input</label>
+    <!-- Section One -->
+    <div class="section-one section-padding">
+      <h2 class="section-one-heading">
+        <span>Internet Computer</span> - the next stage of the Internet.
+      </h2>
+      <p class="section-one-description">
+        DFINITY Foundation's Internet Computer (IC) is a progressive blockchain,
+        which hosts unlimited data and computational power right "on-chain".
+        Build scalable Dapps, DeFi, websites and much more. <br />
+        <br />
+        Stay up to date any time with our info page!
+      </p>
+      <!-- Buttons -->
+      <div class="section-one-buttons">
+        <a href="About.html"
+          ><button class="btn"><span>Who is DFINITY?</span></button></a
+        >
+        <a href="Functionality.html">
+          <button class="btn">
+            <span>What is the IC?</span>
+          </button>
+        </a>
       </div>
-
-      <div>test</div>
-      <div>test</div>
-      <div>test</div>
-      <div>test</div>
-      <div>test</div>
-      <div>test</div>
-      <div>test</div>
-      <div>test</div>
-      <div>test</div>
-      <div>test</div>
-      <div>test</div>
-      <div>test</div>
-      <div>test</div>
-      <div>test</div>
+      <!-- Buttons END -->
     </div>
+    <!-- Section One END -->
+
+    <div class="section-two-bridge"></div>
+
+    <!-- Section TWO -->
+    <div class="section-two section-padding">
+      <div class="section-grid">
+        <div>
+          <h3 class="section-heading">What is a Blockchain?</h3>
+          <p class="section-description">
+            Blockchain is a growing technology that allows for the storage and
+            sharing of data in a way that is verifiable, immutable, and
+            decentralized. <br />
+            The blockchain is a distributed ledger of information, which is
+            stored in a public database, represented as blocks, which are
+            connected to each other by hashes; each block contains a
+            cryptographic hash of the previous block.
+          </p>
+        </div>
+        <img
+          class="section-image"
+          src="assets/Images/Blockchain.jpg"
+          alt="Blockchain Image"
+        />
+      </div>
+    </div>
+    <!-- Section TWO END -->
+
+    <div class="section-three-bridge"></div>
+
+    <!-- Section THREE -->
+    <div class="section-three section-padding">
+      <h3 class="section-heading">Running Projects on the Internet Computer</h3>
+
+      <!-- Projects list -->
+      <ul class="projects-container">
+        <!-- Project -->
+        <section class="card">
+          <div class="card-thumb">
+            <a href="#"><img src="assets/Images/fleek-logo.png" alt="" /></a>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title">FLEEK</h2>
+            <h4 class="card-subtitle">Deploy on the Internet Computer</h4>
+            <p class="card-description">
+              Fleek Makes It Easy to Build and Deploy Websites on the Internet
+              Computer
+            </p>
+          </div>
+        </section>
+        <!-- Project END -->
+        <!-- Project -->
+        <section class="card">
+          <div class="card-thumb">
+            <a href="#"><img src="assets/Images/oc-logo.png" alt="" /></a>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title">OPEN CHAT</h2>
+            <h4 class="card-subtitle">Chat on Blockchain</h4>
+            <p class="card-description">
+              OpenChat, an app, that runs end-to-end on the Internet Computer
+              blockchain.
+            </p>
+          </div>
+        </section>
+        <!-- Project END -->
+        <!-- Project -->
+        <section class="card">
+          <div class="card-thumb">
+            <a href="#"
+              ><img src="assets/Images/motoko-logo.5b9112fe.png" alt=""
+            /></a>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title">MOTOKO PLAYGROUND</h2>
+            <h4 class="card-subtitle">An IDE to learn Motoko</h4>
+            <p class="card-description">
+              Motoko is a simple, yet powerful, programming language, with a
+              easy to learn syntax.
+            </p>
+          </div>
+        </section>
+        <!-- Project END -->
+        <!-- Project -->
+        <section class="card">
+          <div class="card-thumb">
+            <a href="#"><img src="assets/Images/ii-logo.webp" alt="" /></a>
+          </div>
+          <div class="card-body">
+            <h2 class="card-title">INTERNET IDENTITY</h2>
+            <h4 class="card-subtitle">Stay untracked online</h4>
+            <p class="card-description">
+              Internet Identity allows you to log on to the Internet computer
+              without identifying information.
+            </p>
+          </div>
+        </section>
+        <!-- Project END -->
+      </ul>
+      <!-- Projects list END -->
+    </div>
+    <!-- Section THREE END -->
 
     <!-- FOOTER -->
     <div class="footer-container">
@@ -137,6 +236,7 @@
         inventore, itaque dolorem cumque nisi culpa delectus, voluptates eius.
       </p>
     </div>
+
     <!-- FOOTER END -->
 
     <!-- JAVASCRIPT (can also be disabled) -->

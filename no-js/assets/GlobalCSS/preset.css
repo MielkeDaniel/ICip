@@ -365,3 +365,7 @@ body {
   background: #fafafa;
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
+
+img {
+  border-radius: 1rem;
+}

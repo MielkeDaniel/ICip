@@ -1,10 +1,3 @@
-/* ---------------------- Navbar ---------------------- */
-/* ------> in BurgerMenu.css */
-.lg-nav-logo {
-  display: none;
-}
-/* ---------------------- Navbar END ---------------------- */
-
 /* ---------------------- Heading ---------------------- */
 .page-heading {
   color: #cdb17a;
@@ -70,12 +63,123 @@
 /* ---------------------- Animated Background END ---------------------- */
 
 /* ---------------------- Hero section to content bridge ---------------------- */
-.bridge {
+.section-one-bridge {
   height: 10rem;
-  background: linear-gradient(0deg, #fff6df, #fafafa);
+  background: linear-gradient(0deg, #fff1cd, #fafafa);
 }
 
-.content-wrapper {
-  background: #fff6df;
-}
 /* ---------------------- Hero section to content bridge END ---------------------- */
+
+/* ---------------------- Section One  ---------------------- */
+.section-one {
+  padding: 10rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff1cd;
+}
+
+.section-one-heading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.section-one-heading span {
+  color: #f36928;
+}
+
+.section-one-description {
+  padding-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+.section-one-buttons {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.section-one button {
+  margin-right: 0.5rem;
+}
+/* ---------------------- Section One END ---------------------- */
+
+/* ---------------------- Section one to two bridge  ---------------------- */
+.section-two-bridge {
+  height: 10rem;
+  background: linear-gradient(0deg, #ffffff, #fff1cd);
+}
+/* ---------------------- Section one to two bridge END ---------------------- */
+
+/* ---------------------- Section two ---------------------- */
+.section-two {
+  background: #ffffff;
+}
+
+.section-image {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/* ---------------------- Section two END ---------------------- */
+
+/* ---------------------- Section two to three bridge  ---------------------- */
+.section-three-bridge {
+  height: 10rem;
+  background: linear-gradient(0deg, #ffe9e9, #ffffff);
+}
+/* ---------------------- Section two to three bridge END ---------------------- */
+
+/* ---------------------- Section three ---------------------- */
+.section-three {
+  background: #ffe9e9;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.project-card {
+  background-color: #fff6e0;
+  width: 20%;
+  border-radius: 10px;
+  margin-right: 2rem;
+  border-bottom: 1px solid #dad7cb;
+  border-right: 1px solid #dad7cb;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.project-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.project-description {
+  background-color: #f0e1c2;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+/* ---------------------- Section three END ---------------------- */

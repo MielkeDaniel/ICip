@@ -19,4 +19,39 @@
     margin-top: 6rem;
   }
   /* ---------------------- Animated Background END ---------------------- */
+
+  /* ---------------------- Section One ---------------------- */
+  .section-one {
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff1cd;
+  }
+
+  .section-one-heading {
+    font-size: 5rem;
+    text-align: start;
+  }
+
+  .section-one-description {
+    font-size: 2rem;
+    text-align: start;
+  }
+
+  .section-one-buttons {
+    justify-content: start;
+  }
+
+  /* ---------------------- Section One END ---------------------- */
+
+  /* ---------------------- Section two ---------------------- */
+
+  .section-grid {
+    display: grid;
+    align-items: center;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
+    grid-gap: 2rem;
+  }
+
+  /* ---------------------- Section two END ---------------------- */
 }
