@@ -2,7 +2,9 @@
   .lg-topbar {
     display: flex;
     justify-content: space-between;
-    padding: 0.4rem;
+    padding: 0.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     list-style-type: none;
     font-size: 1.2rem;
     border-bottom: 1px solid gray;

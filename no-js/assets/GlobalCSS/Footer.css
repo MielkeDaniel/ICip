@@ -1,0 +1,57 @@
+.disclaimer {
+  width: 50%;
+  color: rgb(162, 162, 162);
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.footerlist-header {
+  margin-bottom: 2rem;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.footer-container {
+  background-color: white;
+  border-top: 1px solid rgb(208, 208, 208);
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links h3 {
+  padding-bottom: 1rem;
+}
+
+.footer-links a {
+  padding: 0.5rem;
+  color: black;
+  transition: all 150ms;
+}
+
+.footer-links a:hover {
+  color: #cdb17a;
+}
+
+/* ---------------------- LG-Footer ---------------------- */
+
+@media (min-width: 1100px) {
+  .footer-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .disclaimer {
+    width: 30%;
+    margin: 0;
+    padding-left: 5rem;
+  }
+}
