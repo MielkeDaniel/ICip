@@ -2,7 +2,7 @@
   position: relative;
   max-width: 18.75rem;
   margin: 0 auto;
-  background-color: rgb(255, 236, 202);
+  background-color: rgb(255, 232, 188);
   border-radius: 2rem;
   overflow: hidden;
 }
@@ -11,6 +11,11 @@
   padding: 1.5em;
   padding-bottom: 0;
 }
+
+.card-title {
+  color: black;
+}
+
 img {
   display: block;
   width: 100%;
@@ -51,14 +56,14 @@ img {
 
 .card-subtitle {
   margin-bottom: 0.75rem;
-  color: rgb(164, 164, 164);
+  color: rgb(94, 94, 94);
   padding-top: 0.3rem;
 }
 .card-description {
   display: block;
   height: 0;
   font-size: 1rem;
-  color: #666c74;
+  color: #3a3a3a;
   font-weight: 600;
   opacity: 0;
   transition: height 0.4s ease, opacity 0.2s ease;

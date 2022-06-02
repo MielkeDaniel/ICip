@@ -361,9 +361,9 @@ a {
 
 body {
   box-sizing: border-box;
-  color: black;
-  background: #fafafa;
-  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: rgb(234, 234, 234);
+  background: #222222;
+  font-family: "Montserrat";
 }
 
 img {

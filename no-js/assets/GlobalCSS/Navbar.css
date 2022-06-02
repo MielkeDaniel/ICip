@@ -21,7 +21,7 @@
   #nav-menu li {
     font-size: 1.15rem;
     transition: all 150ms;
-    color: black;
+    color: rgb(236, 236, 236);
     padding-left: 2rem;
     padding-right: 2rem;
   }

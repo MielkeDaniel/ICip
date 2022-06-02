@@ -19,7 +19,7 @@
 
   #menuToggle a {
     text-decoration: none;
-    color: #232323;
+    color: rgb(44, 44, 44);
 
     transition: color 0.3s ease;
   }
@@ -53,7 +53,6 @@
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-
     background: #828282;
     border-radius: 3px;
 
@@ -106,7 +105,6 @@
     margin: -100px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
-
     background: #dbdbdb;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;

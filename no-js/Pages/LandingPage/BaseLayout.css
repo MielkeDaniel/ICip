@@ -65,7 +65,7 @@
 /* ---------------------- Hero section to content bridge ---------------------- */
 .section-one-bridge {
   height: 10rem;
-  background: linear-gradient(0deg, #fff1cd, #fafafa);
+  background: linear-gradient(0deg, #191814, #222222);
 }
 
 /* ---------------------- Hero section to content bridge END ---------------------- */
@@ -77,7 +77,7 @@
   padding-right: 2rem;
   margin-left: auto;
   margin-right: auto;
-  background: #fff1cd;
+  background-color: #191814;
 }
 
 .section-one-heading {
@@ -86,7 +86,7 @@
 }
 
 .section-one-heading span {
-  color: #f36928;
+  color: #c11962;
 }
 
 .section-one-description {
@@ -110,13 +110,13 @@
 /* ---------------------- Section one to two bridge  ---------------------- */
 .section-two-bridge {
   height: 10rem;
-  background: linear-gradient(0deg, #ffffff, #fff1cd);
+  background: linear-gradient(0deg, #1f2021, #191814);
 }
 /* ---------------------- Section one to two bridge END ---------------------- */
 
 /* ---------------------- Section two ---------------------- */
 .section-two {
-  background: #ffffff;
+  background: #1f2021;
 }
 
 .section-image {
@@ -125,6 +125,8 @@
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  padding: 1px;
+  background-color: #cdb17a;
 }
 
 /* ---------------------- Section two END ---------------------- */
@@ -132,13 +134,13 @@
 /* ---------------------- Section two to three bridge  ---------------------- */
 .section-three-bridge {
   height: 10rem;
-  background: linear-gradient(0deg, #ffe9e9, #ffffff);
+  background: linear-gradient(0deg, #202020, #1f2021);
 }
 /* ---------------------- Section two to three bridge END ---------------------- */
 
 /* ---------------------- Section three ---------------------- */
 .section-three {
-  background: #ffe9e9;
+  background: #202020;
 }
 
 .projects-container {
