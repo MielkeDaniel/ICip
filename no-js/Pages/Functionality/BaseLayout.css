@@ -1,26 +1,87 @@
-.section-one-heading {
-  padding-left: 2rem;
-  padding-right: 2rem;
+.hero-section {
+  height: 70vh;
+  background-image: url("../../assets/Images/ICP.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0 80px 100px #222222 inset;
+}
+
+.hero-heading {
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  font-size: 5rem;
+  position: absolute;
   text-align: center;
 }
 
-.section-one-description {
-  margin: auto;
-  font-size: 2rem;
-  width: 92%;
-  text-align: left;
-  font-weight: normal;
-  margin-bottom: 2rem;
-}
-
-.section-one-bridge {
+/* ---------------------- Section Two ---------------------- */
+.section-two-bridge {
   height: 10rem;
-  background: linear-gradient(0deg, #d1d8fc, #fafafa);
+  background: linear-gradient(0deg, #181616, #222222);
 }
 
 .section-two {
-  background-color: #d1d8fc;
+  background: #181616;
 }
+
+.section-two-video {
+  display: block;
+  margin: 0 auto;
+}
+
+.section-two-heading {
+  color: #ccbea2;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-two-description {
+  font-size: 1.1rem;
+  font-weight: normal;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.video-container {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  height: 52.1vw;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}
+.video-description {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.video-a {
+  text-decoration: underline;
+  color: #cdb17a;
+}
+/* ---------------------- Section Two END ---------------------- */
+
+/* ---------------------- Section Three ---------------------- */
+
+.section-three-bridge {
+  height: 10rem;
+  background: linear-gradient(0deg, #2c292e, #181616);
+}
+
+.section-three {
+  background: #2c292e;
+}
+
+/* ---------------------- Section Three END ---------------------- */
 
 .section-image {
   max-width: 100%;
@@ -28,19 +89,6 @@
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-}
-
-.section-two-bridge {
-  height: 10rem;
-  background: linear-gradient(0deg, #ffffff, #d1d8fc);
-}
-
-.section-three-video {
-  display: block;
-  margin: 0 auto;
-}
-
-.video-description {
-  padding-top: 1rem;
-  text-align: center;
+  padding: 1.5px;
+  background-color: #cdb17a;
 }
