@@ -363,7 +363,8 @@ body {
   box-sizing: border-box;
   color: rgb(234, 234, 234);
   background: #222222;
-  font-family: "Montserrat";
+  font-family: "Domine", serif;
+  font-family: "Titillium Web", sans-serif;
 }
 
 img {
