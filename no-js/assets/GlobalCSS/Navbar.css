@@ -28,12 +28,11 @@
     font-size: 1.3rem;
     transition: all 150ms;
     color: rgb(64, 64, 64);
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-right: 4rem;
   }
 
   #nav-menu li:hover {
-    color: #c9b593;
+    color: #7e6f55;
   }
 
   #menuToggle input {

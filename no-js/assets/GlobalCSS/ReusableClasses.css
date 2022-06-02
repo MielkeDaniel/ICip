@@ -12,6 +12,13 @@
   text-align: center;
 }
 
+.section-subtitle {
+  color: #a4a4a4;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: center;
+}
+
 .section-description {
   font-size: 1.1rem;
   font-weight: normal;
@@ -19,6 +26,10 @@
   padding-bottom: 2rem;
   line-height: 1.5;
   text-align: center;
+}
+
+.text-centered {
+  text-align: center !important;
 }
 
 /* ---------------------- LG-Layout ---------------------- */

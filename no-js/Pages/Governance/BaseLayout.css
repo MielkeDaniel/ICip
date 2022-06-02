@@ -1,0 +1,51 @@
+/* ---------------------- Hero section ---------------------- */
+.hero-section {
+  height: 100vh;
+  background-image: url("../../assets/Images/governance.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px -30px 30px 0px #232323 inset;
+  margin-bottom: 5rem;
+}
+
+.hero-heading {
+  text-align: center;
+  margin: 0;
+  color: #cdb17a;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  font-size: 2.5rem;
+  position: absolute;
+}
+/* ---------------------- Hero section END ---------------------- */
+
+/* ---------------------- Section one ---------------------- */
+.section-one {
+  text-align: center;
+}
+
+.section-one-heading {
+  text-align: center;
+  color: #c1ad84;
+  font-size: 3rem;
+  position: relative;
+  margin: 1rem;
+}
+
+.section-one-heading span {
+  background-color: #232323;
+  padding: 0.7rem;
+}
+
+.section-one-heading::after {
+  border-bottom: 1px solid #d1b171;
+  content: "";
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+/* ---------------------- Section one END ---------------------- */
