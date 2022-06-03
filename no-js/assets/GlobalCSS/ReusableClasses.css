@@ -50,9 +50,13 @@
     font-weight: bold;
   }
 
+  .section-subtitle {
+    font-size: 1.7rem;
+  }
+
   .section-description {
     text-align: start;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     padding-bottom: 0rem;
   }
 }

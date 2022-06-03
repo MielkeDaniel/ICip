@@ -48,4 +48,8 @@
   z-index: -1;
 }
 
+.grid-item {
+  margin-top: 2rem;
+}
+
 /* ---------------------- Section one END ---------------------- */
