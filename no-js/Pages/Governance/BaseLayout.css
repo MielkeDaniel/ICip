@@ -23,6 +23,7 @@
 /* ---------------------- Section one ---------------------- */
 .section-one {
   text-align: center;
+  padding-bottom: 7rem;
 }
 
 .section-one-heading {
@@ -50,6 +51,46 @@
 
 .grid-item {
   margin-top: 2rem;
+  font-weight: bolder;
 }
 
 /* ---------------------- Section one END ---------------------- */
+
+/* ---------------------- Section one to two bridge  ---------------------- */
+.section-two-bridge {
+  height: 5rem;
+  background: linear-gradient(0deg, #272727, #222222);
+  position: relative;
+}
+
+.section-two-bridge::before {
+  border-bottom: 1px solid #d1b171;
+  content: "";
+  top: 0%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 3;
+  margin-right: 3rem;
+}
+/* ---------------------- Section one to two bridge END ---------------------- */
+
+/* ---------------------- Section two ---------------------- */
+.section-two {
+  background-color: #272727;
+}
+
+.staking-image {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: 1px solid #cdb17a;
+}
+
+.button-wrapper {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+/* ---------------------- Section two END ---------------------- */

@@ -27,4 +27,12 @@
     margin-top: 0;
   }
   /* ---------------------- Section one END ---------------------- */
+
+  /* ---------------------- Section two  ---------------------- */
+  .button-wrapper {
+    padding-top: 2rem;
+    text-align: start;
+    transform: translateX(-5px);
+  }
+  /* ---------------------- Section two END ---------------------- */
 }

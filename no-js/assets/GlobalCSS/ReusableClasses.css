@@ -8,7 +8,7 @@
 
 .section-heading {
   color: #ccbea2;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   text-align: center;
 }
@@ -21,7 +21,7 @@
 }
 
 .section-description {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: normal;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -36,6 +36,14 @@
 /* ---------------------- LG-Layout ---------------------- */
 
 @media (min-width: 1100px) {
+  .section-grid {
+    display: grid;
+    align-items: center;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
+    grid-gap: 2rem;
+  }
+
   .section-padding {
     padding-left: 9rem;
     padding-right: 9rem;

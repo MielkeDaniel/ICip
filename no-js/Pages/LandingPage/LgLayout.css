@@ -44,14 +44,6 @@
 
   /* ---------------------- Section two ---------------------- */
 
-  .section-grid {
-    display: grid;
-    align-items: center;
-    grid-auto-columns: minmax(0, 1fr);
-    grid-auto-flow: column;
-    grid-gap: 2rem;
-  }
-
   .article-splitter {
     display: flex;
     justify-content: center;
