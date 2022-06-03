@@ -10,4 +10,28 @@
     grid-auto-flow: column;
     grid-gap: 2rem;
   }
+
+  .video {
+    width: 40vw;
+    height: 22.5vw;
+  }
+
+  .section-two-heading {
+    text-align: start;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 2rem;
+  }
+
+  .section-two-description {
+    margin-bottom: 5rem;
+    text-align: start;
+    font-size: 1.5rem;
+    padding-bottom: 0rem;
+    margin-left: 2rem;
+  }
+
+  .video-container {
+    height: 23vw;
+  }
 }
