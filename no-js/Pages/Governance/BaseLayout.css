@@ -11,7 +11,7 @@
 .hero-heading {
   text-align: center;
   margin: 0;
-  color: #cdb17a;
+  color: #ffdd98;
   top: 47%;
   left: 50%;
   transform: translate(-50%, -100%);
@@ -93,4 +93,24 @@
   padding-bottom: 2rem;
   text-align: center;
 }
+
+.video-container {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
 /* ---------------------- Section two END ---------------------- */
+
+/* ---------------------- Section two to three bridge ---------------------- */
+.section-three-bridge {
+  height: 10rem;
+  background: linear-gradient(0deg, #161514, #272727);
+}
+/* ---------------------- Section two to three bridge ---------------------- */
+
+/* ---------------------- Section three ---------------------- */
+.section-three {
+  background-color: #161514;
+}
+/* ---------------------- Section three END ---------------------- */

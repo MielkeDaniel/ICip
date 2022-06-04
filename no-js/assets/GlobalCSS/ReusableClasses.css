@@ -33,6 +33,16 @@
   text-align: center !important;
 }
 
+.video-description {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.video-a {
+  text-decoration: underline;
+  color: #cdb17a;
+}
+
 /* ---------------------- LG-Layout ---------------------- */
 
 @media (min-width: 1100px) {

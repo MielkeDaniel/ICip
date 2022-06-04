@@ -3,7 +3,7 @@
   background-image: url("../../assets/Images/ICP.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  box-shadow: 0px 0 80px 100px #222222 inset;
+  box-shadow: 0px -30px 30px 0px #222222 inset;
 }
 
 .hero-heading {
@@ -59,15 +59,6 @@
   width: 100%;
   height: 100%;
 }
-.video-description {
-  padding-top: 1rem;
-  text-align: center;
-}
-
-.video-a {
-  text-decoration: underline;
-  color: #cdb17a;
-}
 /* ---------------------- Section Two END ---------------------- */
 
 /* ---------------------- Section Three ---------------------- */
@@ -84,7 +75,7 @@
 /* ---------------------- Section Three END ---------------------- */
 
 .section-image {
-  max-width: 100%;
+  max-width: 70%;
   display: block;
   margin-left: auto;
   margin-right: auto;
