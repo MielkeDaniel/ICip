@@ -4,26 +4,36 @@
   background: none;
   padding: 1rem;
   font-size: 1rem;
-  color: #090909;
+  color: #d8d8d8;
   transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 270px;
+}
+
+.big-input {
+  min-height: 20vh;
 }
 
 .input:focus,
 .input:valid {
   outline: none;
-  border: 1.5px solid #9a7a23;
+  border: 1.5px solid #b39239;
 }
 
 .input-group {
   position: relative;
 }
 
+.input-group textarea {
+  resize: none;
+}
+
 .input:focus ~ label,
-input:valid ~ label {
-  transform: translateY(-50%) scale(0.8);
-  background-color: #fff6df;
+.input:valid ~ label {
+  transform: translateX(-15%) translateY(-50%) scale(0.8);
+  background-color: #222222;
   padding: 0 0.2em;
-  color: #9a7a23;
+  color: #b39239;
+  font-size: 1.4rem;
 }
 
 .user-label {
@@ -33,4 +43,13 @@ input:valid ~ label {
   pointer-events: none;
   transform: translateY(1rem);
   transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (min-width: 1100px) {
+  .input {
+    width: 300px;
+  }
+  .input-group textarea {
+    width: 600px;
+  }
 }

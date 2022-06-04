@@ -8,8 +8,8 @@
   /* ---------------------- Animated Logo ---------------------- */
 
   .svgBox svg {
-    transform: scale(4);
-    padding-bottom: 5rem;
+    padding-bottom: 20rem;
+    transform: scale(0.7);
   }
 
   /* ---------------------- Animated Logo END ---------------------- */
@@ -24,6 +24,7 @@
   .section-one {
     margin-left: auto;
     margin-right: auto;
+    padding: 10rem;
   }
 
   .section-one-heading {
@@ -42,6 +43,12 @@
 
   /* ---------------------- Section One END ---------------------- */
 
+  /* ---------------------- Section one to two bridge  ---------------------- */
+  .section-two-bridge {
+    height: 10rem;
+  }
+  /* ---------------------- Section one to two bridge END ---------------------- */
+
   /* ---------------------- Section two ---------------------- */
 
   .article-splitter {
@@ -54,4 +61,10 @@
   }
 
   /* ---------------------- Section two END ---------------------- */
+
+  /* ---------------------- Section two to three bridge  ---------------------- */
+  .section-three-bridge {
+    height: 10rem;
+  }
+  /* ---------------------- Section two to three bridge END ---------------------- */
 }

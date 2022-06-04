@@ -1,0 +1,19 @@
+@media (min-width: 1100px) {
+  .page-heading {
+    text-align: start;
+    margin-top: 15vh;
+  }
+
+  .pers-group {
+    display: flex;
+    margin-bottom: 1.5rem;
+  }
+
+  .form-group-heading {
+    text-align: start;
+  }
+
+  .splitter {
+    padding: 1.5rem;
+  }
+}
