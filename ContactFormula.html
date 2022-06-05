@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="PagesCSS/ContactFormula/index.css" />
+    <!-- CSS END -->
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine&family=Titillium+Web:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fonts END -->
+
+    <title>Contact Page</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <div class="lg-topbar">
+          <a class="navlogo-container" href="index.html"
+            ><img class="lg-nav-logo" src="assets/logo.svg" alt="nav-logo"
+          /></a>
+          <ul id="nav-menu">
+            <a class="home" href="index.html"
+              ><li><img class="" src="assets/logo.svg" alt="nav-logo" /></li
+            ></a>
+            <a href="Functionality.html"><li>Functionality</li></a>
+            <a href="Governance.html"><li>Governance</li></a>
+            <a href="About.html"><li>About DFINITY</li></a>
+            <a href="ContactFormula.html"><li>Contact formula</li></a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar END -->
+
+    <!-- Header section  -->
+    <header class="section-padding">
+      <h1 class="page-heading"><span>SUBMIT</span> YOUR REQUEST</h1>
+      <p class="heading-subtitle">
+        For any questions or concerns, please do not hesitate to contact us. We
+        will process your request as soon as possible!
+      </p>
+    </header>
+    <!-- Header section END -->
+
+    <!-- Form section -->
+    <div class="section-padding">
+      <form action="https://www.inf.fh-flensburg.de/echo/" method="post">
+        <!-- Personal Infos -->
+        <h2 class="form-group-heading">PERSONAL INFO</h2>
+        <div class="pers-group">
+          <div class="input-group">
+            <input
+              required
+              type="text"
+              name="text"
+              autocomplete="off"
+              class="input"
+            />
+            <label class="user-label">Name</label>
+          </div>
+          <span class="splitter"></span>
+          <div class="input-group">
+            <input
+              required
+              type="text"
+              name="text"
+              autocomplete="off"
+              class="input"
+            />
+            <label class="user-label">Mail</label>
+          </div>
+        </div>
+        <!-- Personal Infos END -->
+
+        <!-- Submission Infos -->
+        <h2 class="form-group-heading">SUBMISSION INFOS</h2>
+        <div class="submission-infos">
+          <div class="input-group">
+            <input
+              required
+              type="text"
+              name="text"
+              autocomplete="off"
+              class="input"
+            />
+            <label class="user-label">Submission Title</label>
+          </div>
+          <div class="splitter"></div>
+          <div class="input-group">
+            <textarea
+              required
+              class="input big-input"
+              id="description"
+              cols="40"
+              rows="5"
+            ></textarea>
+            <label class="user-label">Description</label>
+          </div>
+        </div>
+        <!-- Submission Infos END -->
+
+        <!-- Submit buttons -->
+        <div class="buttons-flex">
+          <div class="button-wrapper">
+            <a href="https://dashboard.internetcomputer.org/governance"
+              ><button class="btn" type="reset"><span>RESET</span></button></a
+            >
+          </div>
+          <span class="splitter"></span>
+          <div class="button-wrapper">
+            <a href="https://dashboard.internetcomputer.org/governance"
+              ><button class="btn" type="submit"><span>SUBMIT</span></button></a
+            >
+          </div>
+        </div>
+        <!-- Submit buttons END -->
+      </form>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer-container">
+      <ul class="footer-links">
+        <h3 class="footerlist-heading">Pages</h3>
+        <a href="Functionality.html"><li>Functionality</li></a>
+        <a href="Governance.html"><li>Governance</li></a>
+        <a href="About.html"><li>About DFINITY</li></a>
+      </ul>
+
+      <ul class="footer-links">
+        <h3 class="footerlist-heading">Informational</h3>
+        <a href="Imprint.html"><li>Imprint</li></a>
+        <a href="Governance.html"><li>Privacy Policy</li></a>
+        <a href="Colophon.html"><li>Colophon</li></a>
+      </ul>
+
+      <p class="disclaimer">
+        The information contained in this website is for informational purposes
+        only. It is not intended to be a substitute for legal counsel. The
+        information is provided without warranty of any kind.
+      </p>
+    </div>
+    <!-- FOOTER END -->
+  </body>
+</html>
