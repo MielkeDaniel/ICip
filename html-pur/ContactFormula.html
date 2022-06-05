@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="PagesCSS/ContactFormula/index.css" />
+    <!-- CSS END -->
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine&family=Titillium+Web:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fonts END -->
+
+    <title>Contact Page</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav role="navigation">
+      <div>
+        <input type="checkbox" />
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <div>
+          <a href="index.html"><img src="assets/logo.svg" alt="nav-logo" /></a>
+          <ul id="nav-menu">
+            <a href="index.html"
+              ><li><img src="assets/logo.svg" alt="nav-logo" /></li
+            ></a>
+            <a href="Functionality.html"><li>Functionality</li></a>
+            <a href="Governance.html"><li>Governance</li></a>
+            <a href="About.html"><li>About DFINITY</li></a>
+            <a href="ContactFormula.html"><li>Contact formula</li></a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar END -->
+
+    <!-- Header section  -->
+    <header>
+      <h1><span>SUBMIT</span> YOUR REQUEST</h1>
+      <p>
+        For any questions or concerns, please do not hesitate to contact us. We
+        will process your request as soon as possible!
+      </p>
+    </header>
+    <!-- Header section END -->
+
+    <!-- Form section -->
+    <section>
+      <form action="https://www.inf.fh-flensburg.de/echo/" method="post">
+        <!-- Personal Infos -->
+        <h2>PERSONAL INFO</h2>
+        <div>
+          <div>
+            <input
+              required
+              type="text"
+              name="text"
+              autocomplete="off"
+              ="input"
+            />
+            <label>Name</label>
+          </div>
+          <span></span>
+          <div>
+            <input
+              required
+              type="text"
+              name="text"
+              autocomplete="off"
+              ="input"
+            />
+            <label>Mail</label>
+          </div>
+        </div>
+        <!-- Personal Infos END -->
+
+        <!-- Submission Infos -->
+        <h2>SUBMISSION INFOS</h2>
+        <div>
+          <div>
+            <input
+              required
+              type="text"
+              name="text"
+              autocomplete="off"
+              ="input"
+            />
+            <label>Submission Title</label>
+          </div>
+          <div></div>
+          <div>
+            <textarea
+              required="input big-input"
+              id="description"
+              cols="40"
+              rows="5"
+            ></textarea>
+            <label>Description</label>
+          </div>
+        </div>
+        <!-- Submission Infos END -->
+
+        <!-- Submit buttons -->
+        <div>
+          <div>
+            <a href="https://dashboard.internetcomputer.org/governance"
+              ><button type="reset"><span>RESET</span></button></a
+            >
+          </div>
+          <span></span>
+          <div>
+            <a href="https://dashboard.internetcomputer.org/governance"
+              ><button type="submit"><span>SUBMIT</span></button></a
+            >
+          </div>
+        </div>
+        <!-- Submit buttons END -->
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <div>
+      <ul>
+        <h3>Pages</h3>
+        <a href="Functionality.html"><li>Functionality</li></a>
+        <a href="Governance.html"><li>Governance</li></a>
+        <a href="About.html"><li>About DFINITY</li></a>
+      </ul>
+
+      <ul>
+        <h3>Informational</h3>
+        <a href="Imprint.html"><li>Imprint</li></a>
+        <a href="Governance.html"><li>Privacy Policy</li></a>
+        <a href="Colophon.html"><li>Colophon</li></a>
+      </ul>
+
+      <p>
+        The information contained in this website is for informational purposes
+        only. It is not intended to be a substitute for legal counsel. The
+        information is provided without warranty of any kind.
+      </p>
+    </div>
+    <!-- FOOTER END -->
+  </body>
+</html>
