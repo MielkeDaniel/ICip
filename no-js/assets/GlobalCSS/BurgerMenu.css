@@ -38,9 +38,6 @@
     -webkit-touch-callout: none;
   }
 
-  /*
-    hamburger
- */
   #menuToggle span {
     display: block;
     width: 33px;
@@ -63,19 +60,12 @@
     transform-origin: 0% 100%;
   }
 
-  /* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
   #menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: #232323;
   }
 
-  /*
- * hide middle one.
- */
   #menuToggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
@@ -85,10 +75,6 @@
     transform: rotate(-45deg) translate(0, -1px);
   }
 
-  /*
- *  absolute positioned
- * at the top left of the screen
- */
   #nav-menu {
     position: absolute;
     width: 300px;

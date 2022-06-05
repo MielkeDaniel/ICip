@@ -1,0 +1,743 @@
+/* ---------------------- (P)Reset-CSS ---------------------- */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+             ========================================================================== */
+
+/**
+           * Remove the margin in all browsers.
+           */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+           * Render the `main` element consistently in IE.
+           */
+
+main {
+  display: block;
+}
+
+/**
+           * Correct the font size and margin on `h1` elements within `section` and
+           * `article` contexts in Chrome, Firefox, and Safari.
+           */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+             ========================================================================== */
+
+/**
+           * 1. Add the correct box sizing in Firefox.
+           * 2. Show the overflow in Edge and IE.
+           */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+           * 1. Correct the inheritance and scaling of font size in all browsers.
+           * 2. Correct the odd `em` font sizing in all browsers.
+           */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+             ========================================================================== */
+
+/**
+           * Remove the gray background on active links in IE 10.
+           */
+
+a {
+  background-color: transparent;
+}
+
+/**
+           * 1. Remove the bottom border in Chrome 57-
+           * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+           */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+           * Add the correct font weight in Chrome, Edge, and Safari.
+           */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+           * 1. Correct the inheritance and scaling of font size in all browsers.
+           * 2. Correct the odd `em` font sizing in all browsers.
+           */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+           * Add the correct font size in all browsers.
+           */
+
+small {
+  font-size: 80%;
+}
+
+/**
+           * Prevent `sub` and `sup` elements from affecting the line height in
+           * all browsers.
+           */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+             ========================================================================== */
+
+/**
+           * Remove the border on images inside links in IE 10.
+           */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+             ========================================================================== */
+
+/**
+           * 1. Change the font styles in all browsers.
+           * 2. Remove the margin in Firefox and Safari.
+           */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+           * Show the overflow in IE.
+           * 1. Show the overflow in Edge.
+           */
+
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+           * Remove the inheritance of text transform in Edge, Firefox, and IE.
+           * 1. Remove the inheritance of text transform in Firefox.
+           */
+
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+           * Correct the inability to style clickable types in iOS and Safari.
+           */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+           * Remove the inner border and padding in Firefox.
+           */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+           * Restore the focus styles unset by the previous rule.
+           */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+           * Correct the padding in Firefox.
+           */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+           * 1. Correct the text wrapping in Edge and IE.
+           * 2. Correct the color inheritance from `fieldset` elements in IE.
+           * 3. Remove the padding so developers are not caught out when they zero out
+           *    `fieldset` elements in all browsers.
+           */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+           * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+           */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+           * Remove the default vertical scrollbar in IE 10+.
+           */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+           * 1. Add the correct box sizing in IE 10.
+           * 2. Remove the padding in IE 10.
+           */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+           * Correct the cursor style of increment and decrement buttons in Chrome.
+           */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+           * 1. Correct the odd appearance in Chrome and Safari.
+           * 2. Correct the outline style in Safari.
+           */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+           * Remove the inner padding in Chrome and Safari on macOS.
+           */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+           * 1. Correct the inability to style clickable types in iOS and Safari.
+           * 2. Change font properties to `inherit` in Safari.
+           */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+             ========================================================================== */
+
+/*
+           * Add the correct display in Edge, IE 10+, and Firefox.
+           */
+
+details {
+  display: block;
+}
+
+/*
+           * Add the correct display in all browsers.
+           */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+             ========================================================================== */
+
+/**
+           * Add the correct display in IE 10+.
+           */
+
+template {
+  display: none;
+}
+
+/**
+           * Add the correct display in IE 10.
+           */
+
+[hidden] {
+  display: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  box-sizing: border-box;
+  color: rgb(234, 234, 234);
+  background: #222222;
+  font-family: "Domine", serif;
+  font-family: "Titillium Web", sans-serif;
+}
+
+img {
+  border-radius: 1rem;
+}
+
+/* ---------------------- (P)Reset-CSS END ---------------------- */
+
+/* ---------------------- Navbar ---------------------- */
+.lg-nav-logo {
+  display: none;
+}
+
+@media (min-width: 1100px) {
+  .home {
+    display: none;
+  }
+
+  .lg-topbar {
+    background-color: rgb(212, 206, 189);
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    list-style-type: none;
+    font-size: 1.2rem;
+    border-bottom: 1px solid gray;
+    z-index: 20;
+  }
+
+  #nav-menu {
+    display: flex;
+  }
+
+  #nav-menu li {
+    font-size: 1.3rem;
+    transition: all 150ms;
+    color: rgb(64, 64, 64);
+    padding-right: 4rem;
+  }
+
+  #nav-menu li:hover {
+    color: #7e6f55;
+  }
+
+  #menuToggle input {
+    display: none;
+  }
+
+  .lg-nav-logo {
+    display: block;
+    padding-left: 5rem;
+    transform: scale(1.2);
+    height: 100%;
+  }
+
+  .navlogo-container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* ---------------------- Navbar END ---------------------- */
+
+/* ---------------------- Footer ---------------------- */
+.disclaimer {
+  width: 50%;
+  color: rgb(162, 162, 162);
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.footerlist-header {
+  margin-bottom: 2rem;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.footer-container {
+  background-color: rgb(35, 35, 35);
+  border-top: 1px solid rgb(208, 208, 208);
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links h3 {
+  padding-bottom: 1rem;
+}
+
+.footer-links a {
+  padding: 0.5rem;
+  color: rgb(233, 233, 233);
+  transition: all 150ms;
+}
+
+.footer-links a:hover {
+  color: #cdb17a;
+}
+
+/* ---------------------- LG-Footer ---------------------- */
+
+@media (min-width: 1100px) {
+  .footer-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .disclaimer {
+    width: 30%;
+    margin: 0;
+    padding-left: 5rem;
+  }
+}
+
+/* ---------------------- Footer END ---------------------- */
+
+/* ---------------------- Button ---------------------- */
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+::before,
+::after {
+  position: absolute;
+  content: "";
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  min-width: 150px;
+  padding: 4px;
+  background: transparent;
+  z-index: 2;
+}
+.btn span {
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 20px;
+  transition: 0.3s;
+}
+
+/*--- hover animation ---*/
+
+.btn span {
+  color: rgb(255, 255, 255);
+  background-color: rgb(190, 167, 113);
+}
+
+.btn::before,
+.btn::after {
+  width: 0%;
+  height: 0%;
+  opacity: 0;
+  transition: width 0.15s 0.15s linear, height 0.15s linear, opacity 0s 0.2s;
+}
+
+.btn::before {
+  top: 0;
+  right: 0;
+  border-top: 1px solid rgb(148, 123, 69);
+  border-left: 1px solid rgb(148, 123, 69);
+}
+.btn::after {
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid rgb(148, 123, 69);
+  border-right: 1px solid rgb(148, 123, 69);
+}
+
+.btn:hover::before,
+.btn:hover::after {
+  width: 100%;
+  height: 99%;
+  opacity: 1;
+  transition: width 0.2s linear, height 0.2s 0.15s linear, opacity 0s;
+}
+
+/* ------------- LG Fontsize ------------- */
+
+@media (min-width: 1100px) {
+  .btn span {
+    font-size: 14px;
+  }
+}
+/* ------------- LG Fontsize END ------------- */
+
+/* ---------------------- Button ---------------------- */
+
+/* ---------------------- Reusable Classes for the page ---------------------- */
+.section-padding {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+}
+
+.section-heading {
+  color: #ccbea2;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-subtitle {
+  color: #a4a4a4;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+.heading-subtitle {
+  color: #a4a4a4;
+  font-size: 1.6rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+.section-description {
+  font-size: 1.2rem;
+  font-weight: normal;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.text-centered {
+  text-align: center !important;
+}
+
+.video-description {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.video-a {
+  text-decoration: underline;
+  color: #cdb17a;
+}
+
+/* ---------------------- LG-Reusable-Layout ---------------------- */
+
+@media (min-width: 1100px) {
+  .heading-subtitle {
+    text-align: start;
+  }
+
+  .section-grid {
+    display: grid;
+    align-items: center;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
+    grid-gap: 2rem;
+  }
+
+  .section-padding {
+    padding-left: 9rem;
+    padding-right: 9rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+  }
+
+  .section-heading {
+    text-align: start;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .section-subtitle {
+    font-size: 1.7rem;
+  }
+
+  .section-description {
+    text-align: start;
+    font-size: 1.4rem;
+    padding-bottom: 0rem;
+  }
+}
+/* ---------------------- LG-Reusable-Layout END ---------------------- */
+
+/* ---------------------- Reusable Classes for the page END ---------------------- */
+
+/* ---------------------- BaseLayout ---------------------- */
+.privacy {
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+/* ---------------------- Heading ---------------------- */
+.privacy-heading {
+  font-size: 2.5rem;
+  position: relative;
+  z-index: 0;
+  padding-top: 20vh;
+  padding-bottom: 5rem;
+  text-align: center;
+  background-color: #8d7e54;
+}
+/* ---------------------- Heading END ---------------------- */
+
+/* ---------------------- Privacy ---------------------- */
+.privacy a {
+  color: #968350;
+  transition: all 0.3s ease-in-out;
+}
+.privacy a:hover {
+  color: #c4b280;
+}
+
+.privacy h2 {
+  font-size: 1.5rem;
+  color: #968350;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  font-weight: bolder;
+}
+
+.request-list {
+  margin-bottom: 2rem;
+}
+
+.request-list li {
+  padding-top: 1rem;
+  list-style: circle;
+  font-size: 1.3rem;
+  margin-left: 2rem;
+}
+
+/* ---------------------- Privacy END ---------------------- */
+
+/* ---------------------- BaseLayout END ---------------------- */
+
+/* ---------------------- LgLayout ---------------------- */
+@media (min-width: 1100px) {
+  .privacy-heading {
+    padding-top: 15vh;
+  }
+
+  .privacy {
+    font-size: 1.3rem;
+    text-align: start;
+  }
+}
+/* ---------------------- LgLayout END ---------------------- */
