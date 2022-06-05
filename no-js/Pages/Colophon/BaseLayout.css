@@ -1,0 +1,48 @@
+/* ---------------------- Heading ---------------------- */
+.colophon-heading {
+  font-size: 2.5rem;
+  position: relative;
+  z-index: 0;
+  padding-top: 20vh;
+  padding-bottom: 5rem;
+  text-align: center;
+  background-color: #8d7e54;
+}
+/* ---------------------- Heading END ---------------------- */
+
+/* ---------------------- Colophon ---------------------- */
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.dfin-im {
+  height: 100% !important;
+  transform: scale(0.8);
+  background: transparent !important;
+}
+
+.more-sources-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.sources-list li {
+  padding-top: 2rem;
+  font-size: 1.4rem;
+}
+.sources-list li a {
+  color: #a69874;
+  transition: all 0.3s ease-in-out;
+}
+.sources-list li a:hover {
+  color: #d4c399;
+}
+
+/* ---------------------- Colophon END ---------------------- */
