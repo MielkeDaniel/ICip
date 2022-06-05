@@ -7,11 +7,11 @@
 }
 
 .hero-heading {
-  color: #fff;
+  color: #cdb17a;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -100%);
-  font-size: 5rem;
+  transform: translate(-50%, -110%);
+  font-size: 4rem;
   position: absolute;
   text-align: center;
 }
@@ -26,19 +26,42 @@
   background: #181616;
 }
 
-.section-two-video {
+.section-image {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 1.5px;
+  background-color: #cdb17a;
+}
+
+/* ---------------------- Section Two End ---------------------- */
+
+.section-three-bridge {
+  height: 10rem;
+  background: linear-gradient(0deg, #2c292e, #181616);
+}
+
+/* ---------------------- Section Three ---------------------- */
+.section-three {
+  background: #2c292e;
+}
+
+.section-three-video {
   display: block;
   margin: 0 auto;
 }
 
-.section-two-heading {
+.section-three-heading {
+  margin-top: 3rem;
   color: #ccbea2;
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
 }
 
-.section-two-description {
+.section-three-description {
   font-size: 1.1rem;
   font-weight: normal;
   padding-top: 2rem;
@@ -68,27 +91,4 @@
   text-decoration: underline;
   color: #cdb17a;
 }
-/* ---------------------- Section Two END ---------------------- */
-
-/* ---------------------- Section Three ---------------------- */
-
-.section-three-bridge {
-  height: 10rem;
-  background: linear-gradient(0deg, #2c292e, #181616);
-}
-
-.section-three {
-  background: #2c292e;
-}
-
 /* ---------------------- Section Three END ---------------------- */
-
-.section-image {
-  max-width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  padding: 1.5px;
-  background-color: #cdb17a;
-}
