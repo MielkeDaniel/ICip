@@ -771,6 +771,98 @@ input[type="checkbox"] {
 
 /* ---------------------- Dropdown END ---------------------- */
 
+/* ---- Card design END ---- */
+.card {
+  position: relative;
+  max-width: 18.5rem;
+  max-height: 18.5rem;
+  margin: 0 auto;
+  background-color: rgb(255, 232, 188);
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card-body {
+  padding: 1.5em;
+  border-top: 1px solid rgb(125, 125, 125);
+}
+
+.card-title {
+  font-size: 1.1rem;
+  color: black;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.4s ease;
+  background-color: rgb(222, 187, 110);
+}
+.card:hover img {
+  transform: scale(1.2);
+}
+.card-thumb {
+  position: relative;
+  height: 200px;
+  transition: height 0.4s ease;
+}
+.card-thumb a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.card:hover .card-thumb {
+  height: calc(200px - 4.5rem);
+}
+.card-thumb::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.card:hover .card-thumb::after {
+  opacity: 0.4;
+}
+
+.card-subtitle {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: rgb(94, 94, 94);
+  padding-top: 0.1rem;
+}
+.card-description {
+  display: block;
+  height: 0;
+  font-size: 1.1rem;
+  color: #3a3a3a;
+  font-weight: 500;
+  opacity: 0;
+  transition: height 0.4s ease, opacity 0.2s ease;
+}
+.card:hover .card-description {
+  height: 4.5rem;
+  opacity: 1;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+/* ---- Card design END ---- */
+
 /* ---------------------- Reusable Classes for the page ---------------------- */
 .section-padding {
   padding-left: 2rem;
@@ -1115,6 +1207,20 @@ input[type="checkbox"] {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3rem;
+}
+
+.zeitleiste {
+  text-align: center;
+}
+
+.zeitleiste-liste {
+  margin-bottom: 4rem;
+}
+
+.zeitleiste-image {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 2rem;
 }
 
 /* ---------------------- BaseLayout END ---------------------- */
