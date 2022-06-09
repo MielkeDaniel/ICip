@@ -729,7 +729,7 @@ img {
   font-weight: normal;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  line-height: 1.5;
+  line-height: 1.6;
   text-align: center;
 }
 
@@ -754,12 +754,10 @@ img {
     text-align: start;
   }
 
-  .section-grid {
-    display: grid;
-    align-items: center;
-    grid-auto-columns: minmax(0, 1fr);
-    grid-auto-flow: column;
-    grid-gap: 2rem;
+  .section-image {
+    margin: 0px !important;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
   }
 
   .section-padding {
@@ -784,6 +782,19 @@ img {
     text-align: start;
     font-size: 1.4rem;
     padding-bottom: 0rem;
+  }
+}
+@media (min-width: 1500px) {
+  .section-grid {
+    display: grid;
+    align-items: center;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
+    grid-gap: 2rem;
+  }
+
+  .section-image {
+    margin: auto !important;
   }
 }
 /* ---------------------- LG-Reusable-Layout END ---------------------- */
@@ -820,14 +831,8 @@ img {
   background: #181616;
 }
 
-.section-image {
-  max-width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  padding: 1.5px;
-  background-color: #cdb17a;
+.section-two .section-image {
+  margin-top: 0px;
 }
 
 /* ---------------------- Section Two End ---------------------- */
@@ -848,7 +853,6 @@ img {
 }
 
 .section-three-heading {
-  margin-top: 3rem;
   color: #ccbea2;
   font-size: 1.5rem;
   font-weight: bold;
@@ -951,6 +955,8 @@ img {
   width: 100%;
   padding: 1.5px;
   background-color: #cdb17a;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 /* ---------------------- BaseLayout END ---------------------- */
@@ -964,22 +970,6 @@ img {
 
   .hero-heading {
     font-size: 5rem;
-  }
-
-  .section-grid {
-    display: grid;
-    align-items: center;
-    grid-auto-columns: minmax(0, 1fr);
-    grid-auto-flow: column;
-    grid-gap: 2rem;
-  }
-
-  .section-four-grid {
-    display: grid;
-    align-items: start;
-    grid-auto-columns: minmax(0, 1fr);
-    grid-auto-flow: column;
-    grid-gap: 2rem;
   }
 
   .video {
@@ -1004,6 +994,29 @@ img {
 
   .video-container {
     height: 23vw;
+    margin-top: 2rem;
+  }
+
+  .section-four-grid {
+    display: grid;
+    align-items: start;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
+    grid-gap: 4rem;
+  }
+
+  .section-four-heading {
+    margin-bottom: 2rem;
+  }
+
+  .section-subtitle {
+    text-align: start;
+  }
+
+  .section-four-subheading {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    text-align: start;
   }
 }
 
