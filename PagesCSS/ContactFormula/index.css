@@ -632,6 +632,7 @@ img {
   padding: 4px;
   background: transparent;
   z-index: 2;
+  margin-bottom: 2rem;
 }
 .btn span {
   box-sizing: border-box;
@@ -759,28 +760,28 @@ img {
   padding-right: 2rem;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 2rem;
 }
 
 .section-heading {
   color: #ccbea2;
   font-size: 2rem;
   font-weight: bold;
-  text-align: center;
+  text-align: start;
 }
 
 .section-subtitle {
   color: #a4a4a4;
   font-size: 1.5rem;
   font-weight: normal;
-  text-align: center;
+  text-align: start;
 }
 
 .heading-subtitle {
   color: #a4a4a4;
   font-size: 1.6rem;
   font-weight: normal;
-  text-align: center;
+  text-align: start;
+  margin-bottom: 1rem;
 }
 
 .section-description {
@@ -789,11 +790,7 @@ img {
   padding-top: 2rem;
   padding-bottom: 2rem;
   line-height: 1.5;
-  text-align: center;
-}
-
-.text-centered {
-  text-align: center !important;
+  text-align: start;
 }
 
 .video-description {
@@ -856,7 +853,7 @@ img {
   color: #ffdd98;
   font-size: 2.5rem;
   font-weight: bold;
-  text-align: center;
+  text-align: start;
 }
 /* ---------------------- HEADER END ---------------------- */
 
@@ -866,7 +863,7 @@ img {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 2rem;
-  text-align: center;
+  text-align: start;
 }
 
 .pers-group {
