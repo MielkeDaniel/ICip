@@ -694,6 +694,70 @@ img {
 
 /* ---------------------- Button ---------------------- */
 
+/* ---------------------- Blockquote ---------------------- */
+
+#ct {
+  height: 150px;
+  width: 370px;
+  border: 1px solid #ccbea2;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  padding: 15px;
+  margin: auto;
+}
+span {
+  background: #492f2f;
+  color: #ccbea2;
+  padding: 0 10px;
+  font-size: 25px;
+  position: relative;
+  top: -28px;
+}
+.corner {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  transform: rotate(-45deg);
+  position: absolute;
+  background: #492f2f;
+}
+
+.block-p {
+  margin-top: 12px;
+  font-size: 20px;
+}
+
+#left_top {
+  top: -16px;
+  left: -16px;
+  border-color: transparent transparent #ccbea2 transparent;
+}
+#right_top {
+  top: -16px;
+  right: -16px;
+  border-color: transparent transparent transparent #ccbea2;
+}
+#left_bottom {
+  bottom: -16px;
+  left: -16px;
+  border-color: transparent #ccbea2 transparent transparent;
+}
+#right_bottom {
+  bottom: -16px;
+  right: -16px;
+  border-color: #ccbea2 transparent transparent transparent;
+}
+
+@media (min-width: 1100px) {
+  #ct {
+    margin: 0;
+    margin-top: -4rem;
+  }
+}
+/* ---------------------- Blockquote END ---------------------- */
+
 /* ---------------------- Reusable Classes for the page ---------------------- */
 .section-padding {
   padding-left: 2rem;
@@ -830,6 +894,44 @@ img {
   padding: 1.5px;
   background-color: #cdb17a;
 }
+
+.image-description {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+/* ---------------------- Section One End ---------------------- */
+
+/* ---------------------- Section Two ---------------------- */
+
+.section-two-bridge {
+  height: 10rem;
+  background: linear-gradient(0deg, #48324d, #492f2f);
+}
+
+.section-two {
+  background: #48324d;
+  padding-bottom: 7rem;
+}
+
+.section-two-heading {
+  color: #ccbea2;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.section-two-description {
+  font-size: 1.2rem;
+  font-weight: normal;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
 /* ---------------------- Section One End ---------------------- */
 
 /* ---------------------- BaseLayout END ---------------------- */
@@ -839,6 +941,24 @@ img {
 @media (min-width: 1100px) {
   .hero-heading {
     font-size: 5rem;
+  }
+
+  .section-two-grid {
+    display: grid;
+    align-items: start;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
+    grid-gap: 2rem;
+  }
+
+  .section-two-heading {
+    font-size: 3rem;
+  }
+
+  .section-two-description {
+    text-align: start;
+    font-size: 1.4rem;
+    padding-bottom: 0rem;
   }
 }
 /* ---------------------- LgLayout END ---------------------- */
