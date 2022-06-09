@@ -524,7 +524,7 @@ img {
   }
 
   #nav-menu li:hover {
-    color: #7e6f55;
+    color: #b19c78;
   }
 
   #menuToggle input {
@@ -550,7 +550,6 @@ img {
 .disclaimer {
   width: 50%;
   color: rgb(162, 162, 162);
-  text-align: center;
   margin: auto;
   margin-bottom: 2rem;
 }
@@ -742,7 +741,7 @@ img {
 }
 
 .drawer__title:hover {
-  color: #7f7d81;
+  color: #c9bfa0;
 }
 
 .drawer__trigger:checked + .drawer__title + .drawer__content-wrapper {
