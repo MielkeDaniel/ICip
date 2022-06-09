@@ -674,7 +674,7 @@ img {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  min-width: 150px;
+  min-width: 230px;
   padding: 4px;
   background: transparent;
   z-index: 2;
@@ -682,7 +682,7 @@ img {
 .btn span {
   box-sizing: border-box;
   display: inline-block;
-  font-size: 10px;
+  font-size: 30px;
   font-weight: bold;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -771,7 +771,7 @@ img {
   width: 90%;
   padding: 1px;
   background-color: #cdb17a;
-  margin-top: 5rem;
+  margin-top: 10rem;
   margin-bottom: 3rem;
 }
 
@@ -1017,7 +1017,7 @@ img {
   font-weight: normal;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  line-height: 1.5;
+  line-height: 1.6;
   text-align: center;
 }
 
@@ -1051,8 +1051,8 @@ img {
   }
 
   .section-padding {
-    padding-left: 9rem;
-    padding-right: 9rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
     margin-left: auto;
     margin-right: auto;
     padding-top: 2rem;
@@ -1130,6 +1130,11 @@ img {
 
   .section-one-buttons {
     justify-content: start;
+  }
+
+  .button-splitter {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   /* ---------------------- Section One END ---------------------- */

@@ -57,7 +57,7 @@
 
     <!-- Section One -->
     <div class="es-contrast-grid es-contrast-grid--compact">
-      <div class="es-contrast-grid__inner">
+      <div class="es-contrast-grid__inner flex-center">
         <table class="es-contrast-grid__table">
           <thead>
             <tr class="es-contrast-grid__foreground-key">
@@ -820,6 +820,15 @@
         /* Override Contrast Grid Styles to make color and font changes */
         .es-contrast-grid {
           font-family: "Lato", sans-serif;
+        }
+
+        .flex-center {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+          border-radius: 2rem;
         }
 
         .es-contrast-grid {
