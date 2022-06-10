@@ -706,7 +706,7 @@ img {
 
 .drawer__content-wrapper {
   font-size: 1.25em;
-  line-height: 1.4em;
+  line-height: 1.6;
   max-height: 0px;
   overflow: hidden;
   transition: 0.25s ease-in-out;
@@ -937,8 +937,8 @@ input[type="checkbox"] {
   }
 
   .section-padding {
-    padding-left: 9rem;
-    padding-right: 9rem;
+    padding-left: 18rem;
+    padding-right: 18rem;
     margin-left: auto;
     margin-right: auto;
     padding-top: 2rem;
@@ -1222,6 +1222,40 @@ input[type="checkbox"] {
   padding: 2rem;
 }
 
+.section-eight {
+  background: #222222;
+  padding-bottom: 7rem;
+}
+
+.section-eight-heading {
+  text-align: center;
+  color: #c1ad84;
+  font-size: 4rem;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 1.5rem;
+}
+
+.section-eight-heading span {
+  background-color: #222222;
+  padding: 0.7rem;
+  z-index: 1;
+}
+
+.section-eight-heading::after {
+  border-bottom: 1px solid #d1b171;
+  content: "";
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.section-subtitle {
+  text-align: start;
+}
+
 /* ---------------------- BaseLayout END ---------------------- */
 
 /* ---------------------- LgLayout ---------------------- */
@@ -1240,6 +1274,10 @@ input[type="checkbox"] {
   .section-six-heading {
     font-size: 3rem;
     font-weight: bold;
+  }
+
+  .section-eight-heading {
+    margin-bottom: 2rem;
   }
 }
 

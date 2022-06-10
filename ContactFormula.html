@@ -79,13 +79,14 @@
           <span class="splitter"></span>
           <div class="input-group">
             <input
+              id="mail-input"
               required
               type="text"
               name="text"
               autocomplete="off"
               class="input"
             />
-            <label class="user-label">Mail</label>
+            <label for="mail-input" class="user-label">Mail</label>
           </div>
         </div>
         <!-- Personal Infos END -->
@@ -95,24 +96,29 @@
         <div class="submission-infos">
           <div class="input-group">
             <input
+              id="submission-input"
               required
               type="text"
               name="text"
               autocomplete="off"
               class="input"
             />
-            <label class="user-label">Submission Title</label>
+            <label for="submission-input" class="user-label"
+              >Submission Title</label
+            >
           </div>
           <div class="splitter"></div>
           <div class="input-group">
             <textarea
+              id="description-input"
               required
               class="input big-input"
-              id="description"
               cols="40"
               rows="5"
             ></textarea>
-            <label class="user-label">Description</label>
+            <label for="description-input" class="user-label"
+              >Description</label
+            >
           </div>
         </div>
         <!-- Submission Infos END -->
