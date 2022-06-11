@@ -1845,3 +1845,176 @@ img {
 
 /* ---------------------- LgLayout END ---------------------- */
 /* ---------------------------------------------------------- CONTACTPAGECSS END ---------------------------------------------------------- */
+
+/* ---------------------------------------------------------- IMPRINT ---------------------------------------------------------- */
+/* ---------------------- Baselayout ---------------------- */
+.imprint {
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+/* ---------------------- Heading ---------------------- */
+.imprint-heading {
+  font-size: 2.5rem;
+  position: relative;
+  z-index: 0;
+  padding-top: 20vh;
+  padding-bottom: 5rem;
+  text-align: center;
+  background-color: #8d7e54;
+}
+/* ---------------------- Heading END ---------------------- */
+
+/* ---------------------- Imprint ---------------------- */
+.imprint a {
+  color: #968350;
+  transition: all 0.3s ease-in-out;
+}
+.imprint a:hover {
+  color: #c4b280;
+}
+
+.imprint h2 {
+  font-size: 1.5rem;
+  color: #968350;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  font-weight: bolder;
+}
+
+/* ---------------------- Imprint END ---------------------- */
+
+/* ---------------------- Baselayout END ---------------------- */
+
+/* ---------------------- LgLayout ---------------------- */
+@media (min-width: 1100px) {
+  .imprint-heading {
+    padding-top: 15vh;
+  }
+
+  .imprint {
+    font-size: 1.3rem;
+    text-align: start;
+  }
+}
+
+/* ---------------------- LgLayout END ---------------------- */
+/* ---------------------------------------------------------- IMPRINT END ---------------------------------------------------------- */
+
+/* ---------------------------------------------------------- Colophon ---------------------------------------------------------- */
+/* ---------------------- BaseLayout ---------------------- */
+/* ---------------------- Heading ---------------------- */
+.colophon-heading {
+  font-size: 2.5rem;
+  position: relative;
+  z-index: 0;
+  padding-top: 20vh;
+  padding-bottom: 5rem;
+  text-align: center;
+  background-color: #8d7e54;
+}
+/* ---------------------- Heading END ---------------------- */
+
+/* ---------------------- Colophon ---------------------- */
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.dfin-im {
+  height: 100% !important;
+  transform: scale(0.8);
+  background: transparent !important;
+}
+
+.more-sources-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.sources-list li {
+  padding-top: 2rem;
+  font-size: 1.4rem;
+}
+.sources-list li a {
+  color: #a69874;
+  transition: all 0.3s ease-in-out;
+}
+.sources-list li a:hover {
+  color: #d4c399;
+}
+
+/* ---------------------- Colophon END ---------------------- */
+/* ---------------------- BaseLayout END ---------------------- */
+/* ---------------------------------------------------------- Colophon END ---------------------------------------------------------- */
+
+/* ---------------------------------------------------------- PRIVACY POLICY ---------------------------------------------------------- */
+/* ---------------------- BaseLayout ---------------------- */
+.privacy {
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+/* ---------------------- Heading ---------------------- */
+.privacy-heading {
+  font-size: 2.5rem;
+  position: relative;
+  z-index: 0;
+  padding-top: 20vh;
+  padding-bottom: 5rem;
+  text-align: center;
+  background-color: #8d7e54;
+}
+/* ---------------------- Heading END ---------------------- */
+
+/* ---------------------- Privacy ---------------------- */
+.privacy a {
+  color: #968350;
+  transition: all 0.3s ease-in-out;
+}
+.privacy a:hover {
+  color: #c4b280;
+}
+
+.privacy h2 {
+  font-size: 1.5rem;
+  color: #968350;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  font-weight: bolder;
+}
+
+.request-list {
+  margin-bottom: 2rem;
+}
+
+.request-list li {
+  padding-top: 1rem;
+  list-style: circle;
+  font-size: 1.3rem;
+  margin-left: 2rem;
+}
+
+/* ---------------------- Privacy END ---------------------- */
+
+/* ---------------------- BaseLayout END ---------------------- */
+
+/* ---------------------- LgLayout ---------------------- */
+@media (min-width: 1100px) {
+  .privacy-heading {
+    padding-top: 15vh;
+  }
+
+  .privacy {
+    font-size: 1.3rem;
+    text-align: start;
+  }
+}
+/* ---------------------- LgLayout END ---------------------- */
+/* ---------------------------------------------------------- PRIVACY POLICY END ---------------------------------------------------------- */
