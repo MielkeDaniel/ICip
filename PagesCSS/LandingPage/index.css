@@ -807,37 +807,6 @@ img {
   padding-bottom: 4rem;
 }
 
-.project-card {
-  background-color: #fff6e0;
-  width: 20%;
-  border-radius: 10px;
-  margin-right: 2rem;
-  border-bottom: 1px solid #dad7cb;
-  border-right: 1px solid #dad7cb;
-}
-
-.project-image {
-  width: 100%;
-  height: auto;
-  max-height: 100%;
-  max-width: 100%;
-}
-
-.project-title {
-  font-size: 1.3rem;
-  font-weight: bold;
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-.project-description {
-  background-color: #f0e1c2;
-  font-size: 1.1rem;
-  text-align: center;
-  padding: 1rem;
-  border-radius: 10px;
-}
-
 /* ---- Card design ---- */
 .card {
   position: relative;
