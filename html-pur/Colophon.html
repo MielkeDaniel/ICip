@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="PagesCSS/Colophon/index.css" />
+    <link rel="stylesheet" href="index.css" />
     <!-- CSS END -->
 
     <!-- Fonts -->
@@ -22,7 +22,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav role="navigation">
+    <nav>
       <div>
         <input type="checkbox" />
 
@@ -33,13 +33,15 @@
         <div>
           <a href="index.html"><img src="assets/logo.svg" alt="nav-logo" /></a>
           <ul>
-            <a href="index.html"
-              ><li><img src="assets/logo.svg" alt="nav-logo" /></li
-            ></a>
-            <a href="Functionality.html"><li>Functionality</li></a>
-            <a href="Governance.html"><li>Governance</li></a>
-            <a href="About.html"><li>About DFINITY</li></a>
-            <a href="ContactFormula.html"><li>Contact formula</li></a>
+            <li>
+              <a href="index.html"
+                ><img src="assets/logo.svg" alt="nav-logo"
+              /></a>
+            </li>
+            <li><a href="Functionality.html">Functionality</a></li>
+            <li><a href="Governance.html">Governance</a></li>
+            <li><a href="About.html">About DFINITY</a></li>
+            <li><a href="ContactFormula.html">Contact formula</a></li>
           </ul>
         </div>
       </div>
@@ -48,66 +50,71 @@
 
     <!-- Colophon heading -->
     <header>
-      <h1>
+      <h1 class="colophon-heading">
         COLOPHON
-        <p>Links and Sources</p>
+        <span class="section-description text-centered">Links and Sources</span>
       </h1>
     </header>
     <!-- Colophon heading END -->
 
-    <section>
-      <h2>FIRST HAND SOURCES</h2>
+    <section class="colophon section-padding">
+      <h2 class="section-heading text-centered">FIRST HAND SOURCES</h2>
       <!-- Cards list -->
-      <ul>
+      <ul class="cards-container">
         <!-- Card -->
-        <div>
-          <div>
-            <a href="#"><img src="assets/logo.svg" alt="dfin logo" /></a>
+        <li class="card">
+          <div class="card-thumb">
+            <a href="#"
+              ><img src="assets/logo.svg" alt="dfin logo" class="dfin-im"
+            /></a>
           </div>
-          <div>
+          <div class="card-body">
             <a href="#">
               <header>
-                <h2>DFINITY</h2>
-                <p>Rights were requested and granted by DFINITY</p>
+                <h2 class="card-title">DFINITY</h2>
+                <p class="card-subtitle">
+                  Rights were requested and granted by DFINITY
+                </p>
               </header>
             </a>
-            <p>
+            <p class="card-description">
               DFINITY granted us the rights to use their images and provide
               information on the IC
             </p>
           </div>
-        </div>
+        </li>
         <!-- Card END -->
         <!-- Card -->
-        <div>
-          <div>
+        <li class="card">
+          <div class="card-thumb">
             <a href="#"
               ><img
                 src="assets/Images/chainsulting-logo.png"
+                class="cs-im"
                 alt="chainsulting-logo"
             /></a>
           </div>
-          <div>
+          <div class="card-body">
             <a href="#">
               <header>
-                <h2>CHAINSULTING</h2>
-                <p>Informations from Chainsulting</p>
+                <h2 class="card-title">CHAINSULTING</h2>
+                <p class="card-subtitle">Informations from Chainsulting</p>
               </header>
             </a>
-            <p>
+            <p class="card-description">
               Informations, especially about Blockchain, DeFi and dApps were
               provided by Chainsulting (Backgroundknowledge)
             </p>
           </div>
-        </div>
+        </li>
         <!-- Card END -->
       </ul>
       <!-- Cards list END -->
 
       <!-- Further Sources -->
-      <div>
-        <h2>LINKS</h2>
-        <ul>
+      <div class="more-sources-section">
+        <h2 class="section-heading text-centered">LINKS</h2>
+        <ul class="sources-list text-centered">
           <li>
             Pseudoelements by Fireship:
             <a href="https://www.youtube.com/watch?v=e1KpKBHJOrA"
@@ -206,6 +213,12 @@
             >
           </li>
           <li>
+            Video on the forms:
+            <a href="https://www.youtube.com/watch?v=fNcJuPIZ2WE&t"
+              >https://www.youtube.com/watch?v=fNcJuPIZ2WE&t</a
+            >
+          </li>
+          <li>
             Video IC technical overview:
             <a href="https://www.youtube.com/watch?v=zHl-oVPoX88"
               >https://www.youtube.com/watch?v=zHl-oVPoX88</a
@@ -218,19 +231,21 @@
     </section>
 
     <!-- FOOTER -->
-    <div>
+    <footer>
       <ul>
-        <h3>Pages</h3>
-        <a href="Functionality.html"><li>Functionality</li></a>
-        <a href="Governance.html"><li>Governance</li></a>
-        <a href="About.html"><li>About DFINITY</li></a>
+        <li><h3>Pages</h3></li>
+        <li><a href="Functionality.html">Functionality</a></li>
+        <li><a href="Governance.html">Governance</a></li>
+        <li><a href="About.html">About DFINITY</a></li>
+        <li><a href="ContactFormula.html">Contact Formula</a></li>
       </ul>
 
       <ul>
-        <h3>Informational</h3>
-        <a href="Imprint.html"><li>Imprint</li></a>
-        <a href="Privacy.html"><li>Privacy Policy</li></a>
-        <a href="Colophon.html"><li>Colophon</li></a>
+        <li><h3>Informational</h3></li>
+        <li><a href="Imprint.html">Imprint</a></li>
+        <li><a href="Privacy.html">Privacy Policy</a></li>
+        <li><a href="Colophon.html">Colophon</a></li>
+        <li><a href="dokumentation/index.html">Documentation</a></li>
       </ul>
 
       <p>
@@ -238,7 +253,7 @@
         only. It is not intended to be a substitute for legal counsel. The
         information is provided without warranty of any kind.
       </p>
-    </div>
+    </footer>
     <!-- FOOTER END -->
   </body>
 </html>

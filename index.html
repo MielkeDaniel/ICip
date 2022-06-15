@@ -25,7 +25,7 @@
 
   <body>
     <!-- Navbar -->
-    <nav role="navigation">
+    <nav>
       <div id="menuToggle">
         <input type="checkbox" />
 
@@ -38,12 +38,15 @@
             ><img class="lg-nav-logo" src="assets/logo.svg" alt="nav-logo"
           /></a>
           <ul id="nav-menu">
-            <a class="home" href="index.html"><li><img src="assets/logo.svg" alt="nav-logo"
-              /></li></a>
-            <a href="Functionality.html"><li>Functionality</li></a>
-            <a href="Governance.html"><li>Governance</li></a>
-            <a href="About.html"><li>About DFINITY</li></a>
-            <a href="ContactFormula.html"><li>Contact formula</li></a>
+            <li class="home">
+              <a href="index.html"
+                ><img src="assets/logo.svg" alt="nav-logo"
+              /></a>
+            </li>
+            <li><a href="Functionality.html">Functionality</a></li>
+            <li><a href="Governance.html">Governance</a></li>
+            <li><a href="About.html">About DFINITY</a></li>
+            <li><a href="ContactFormula.html">Contact formula</a></li>
           </ul>
         </div>
       </div>
@@ -63,16 +66,21 @@
             <stop offset="100%" stop-color="#fbb03b" />
           </linearGradient>
         </defs>
-        <path id="stroke" d="M354-354A500 500 0 1 1 354 354-354-354A500 500 0 1 0-354 354z"></path>
+        <path
+          id="stroke"
+          d="M354-354A500 500 0 1 1 354 354-354-354A500 500 0 1 0-354 354z"
+        ></path>
       </svg>
       <svg viewBox="-2000 -1000 4000 2000">
         <defs>
-          <linearGradient id="col">
+          <linearGradient>
             <stop offset="0%" stop-color="#7867d0" />
             <stop offset="100%" stop-color="#c1b8f9" />
           </linearGradient>
         </defs>
-        <path id="stroke" d="M354-354A500 500 0 1 1 354 354L-354-354A500 500 0 1 0-354 354z"></path>
+        <path
+          d="M354-354A500 500 0 1 1 354 354L-354-354A500 500 0 1 0-354 354z"
+        ></path>
       </svg>
       <h1 class="lp-page-heading">THE <br />INTERNET COMPUTER</h1>
     </header>
@@ -95,13 +103,13 @@
       <!-- Buttons -->
       <div class="lp-section-one-buttons">
         <a href="About.html"
-          ><button class="btn"><span>Who is DFINITY?</span></button></a
+          ><div class="btn"><span>Who is DFINITY?</span></div></a
         >
         <span class="lp-button-splitter"></span>
         <a href="Functionality.html">
-          <button class="btn">
+          <div class="btn">
             <span>What is the IC?</span>
-          </button>
+          </div>
         </a>
       </div>
       <!-- Buttons END -->
@@ -139,11 +147,9 @@
           src="assets/Images/icp-prot.png"
           alt="Blockchain Image"
         />
-        
+
         <div>
-          <h3 class="section-heading">
-            WHAT MAKES THE IC–BLOCKCHAIN SPECIAL?
-          </h3>
+          <h3 class="section-heading">WHAT MAKES THE IC–BLOCKCHAIN SPECIAL?</h3>
           <p class="section-description">
             The Internet Computer is a layer, built ontop of the Internet
             Protocol, called the Internet Computer Protocol (ICP), representing
@@ -184,86 +190,102 @@
       <!-- Projects list -->
       <ul class="lp-projects-container">
         <!-- Project -->
-        <div class="card">
-          <div class="card-thumb">
-            <a href="#"><img src="assets/Images/fleek-logo.png" alt="" /></a>
+        <li>
+          <div class="card">
+            <div class="card-thumb">
+              <a href="#"><img src="assets/Images/fleek-logo.png" alt="" /></a>
+            </div>
+            <div class="card-body">
+              <a href="https://fleek.co/">
+                <header>
+                  <h2 class="card-title">FLEEK</h2>
+                  <p class="card-subtitle">
+                    Easily deploy Dapps on the Internet Computer
+                  </p>
+                </header>
+              </a>
+              <p class="card-description">
+                Fleek Makes It Easy to Build and Deploy Websites on the Internet
+                Computer
+              </p>
+            </div>
           </div>
-          <div class="card-body">
-            <a href="https://fleek.co/">
-              <header>
-                <h2 class="card-title">FLEEK</h2>
-                <p class="card-subtitle">
-                  Easily deploy Dapps on the Internet Computer
-                </p>
-              </header>
-            </a>
-            <p class="card-description">
-              Fleek Makes It Easy to Build and Deploy Websites on the Internet
-              Computer
-            </p>
-          </div>
-        </div>
+        </li>
         <!-- Project END -->
         <!-- Project -->
-        <div class="card">
-          <div class="card-thumb">
-            <a href="#"><img src="assets/Images/oc-logo.png" alt="" /></a>
+        <li>
+          <div class="card">
+            <div class="card-thumb">
+              <a href="#"><img src="assets/Images/oc-logo.png" alt="" /></a>
+            </div>
+            <div class="card-body">
+              <a href="https://6hsbt-vqaaa-aaaaf-aaafq-cai.ic0.app/">
+                <header>
+                  <h2 class="card-title">OPEN CHAT</h2>
+                  <p class="card-subtitle">
+                    Chat with others on the Internet Computer–Blockchain
+                  </p>
+                </header>
+              </a>
+              <p class="card-description">
+                OpenChat, an app, that runs end–to-end on the Internet Computer
+                blockchain.
+              </p>
+            </div>
           </div>
-          <div class="card-body">
-            <a href="https://6hsbt-vqaaa-aaaaf-aaafq-cai.ic0.app/">
-              <header>
-                <h2 class="card-title">OPEN CHAT</h2>
-                <p class="card-subtitle">
-                  Chat with others on the Internet Computer–Blockchain
-                </p>
-              </header>
-           </a>
-            <p class="card-description">
-              OpenChat, an app, that runs end–to-end on the Internet Computer
-              blockchain.
-            </p>
-          </div>
-        </div>
+        </li>
         <!-- Project END -->
         <!-- Project -->
-        <div class="card">
-          <div class="card-thumb">
-            <a href="#">
-              <img src="assets/Images/motoko-logo.5b9112fe.png" alt=""/>
-            </a>
+        <li>
+          <div class="card">
+            <div class="card-thumb">
+              <a href="#">
+                <img src="assets/Images/motoko-logo.5b9112fe.png" alt="" />
+              </a>
+            </div>
+            <div class="card-body">
+              <a href="https://m7sm4-2iaaa-aaaab-qabra-cai.raw.ic0.app/">
+                <header>
+                  <h2 class="card-title">MOTOKO PLAYGROUND</h2>
+                  <p class="card-subtitle">
+                    An IDE for developers to learn Motoko
+                  </p>
+                </header>
+              </a>
+              <p class="card-description">
+                Motoko is a simple, yet powerful, programming language, with an
+                easy syntax.
+              </p>
+            </div>
           </div>
-          <div class="card-body">
-            <a href="https://m7sm4-2iaaa-aaaab-qabra-cai.raw.ic0.app/">
-              <header>
-                <h2 class="card-title">MOTOKO PLAYGROUND</h2>
-                <p class="card-subtitle">An IDE for developers to learn Motoko</p>
-              </header>
-            </a>
-            <p class="card-description">
-              Motoko is a simple, yet powerful, programming language, with an
-              easy syntax.
-            </p>
-          </div>
-        </div>
+        </li>
         <!-- Project END -->
         <!-- Project -->
-        <div class="card">
-          <div class="card-thumb">
-            <a href=""><img src="assets/Images/ii-logo.webp" alt="" />
+        <li>
+          <div class="card">
+            <div class="card-thumb">
+              <a href=""
+                ><img src="assets/Images/ii-logo.webp" alt="flying-man-img"
+              /></a>
+            </div>
+            <div class="card-body">
+              <a
+                href="https://internetcomputer.org/docs/current/tokenomics/identity-auth/auth-how-to/"
+              >
+                <header>
+                  <h2 class="card-title">INTERNET IDENTITY</h2>
+                  <p class="card-subtitle">
+                    Stay online, without being tracked
+                  </p>
+                </header>
+              </a>
+              <p class="card-description">
+                Internet Identity allows you to log on to the Internet computer
+                without identifying information.
+              </p>
+            </div>
           </div>
-          <div class="card-body">
-            <a href="https://internetcomputer.org/docs/current/tokenomics/identity-auth/auth-how-to/">
-            <header>
-              <h2 class="card-title">INTERNET IDENTITY</h2>
-              <p class="card-subtitle">Stay online, without being tracked</p>
-            </header>
-            </a>
-            <p class="card-description">
-              Internet Identity allows you to log on to the Internet computer
-              without identifying information.
-            </p>
-          </div>
-        </div>
+        </li>
         <!-- Project END -->
       </ul>
       <!-- Projects list END -->
@@ -273,19 +295,19 @@
     <!-- FOOTER -->
     <footer class="footer-container">
       <ul class="footer-links">
-        <h3 class="footerlist-heading">Pages</h3>
-        <a href="Functionality.html"><li>Functionality</li></a>
-        <a href="Governance.html"><li>Governance</li></a>
-        <a href="About.html"><li>About DFINITY</li></a>
-        <a href="ContactFormula.html"><li>Contact Formula</li></a>
+        <li><h3 class="footerlist-heading">Pages</h3></li>
+        <li><a href="Functionality.html">Functionality</a></li>
+        <li><a href="Governance.html">Governance</a></li>
+        <li><a href="About.html">About DFINITY</a></li>
+        <li><a href="ContactFormula.html">Contact Formula</a></li>
       </ul>
 
       <ul class="footer-links">
-        <h3 class="footerlist-heading">Informational</h3>
-        <a href="Imprint.html"><li>Imprint</li></a>
-        <a href="Privacy.html"><li>Privacy Policy</li></a>
-        <a href="Colophon.html"><li>Colophon</li></a>
-        <a href="dokumentation/index.html"><li>Documentation</li></a>
+        <li><h3 class="footerlist-heading">Informational</h3></li>
+        <li><a href="Imprint.html">Imprint</a></li>
+        <li><a href="Privacy.html">Privacy Policy</a></li>
+        <li><a href="Colophon.html">Colophon</a></li>
+        <li><a href="dokumentation/index.html">Documentation</a></li>
       </ul>
 
       <p class="disclaimer">
@@ -294,11 +316,10 @@
         information is provided without warranty of any kind.
       </p>
     </footer>
-
     <!-- FOOTER END -->
 
     <!-- JAVASCRIPT (can also be disabled) -->
-    <script type="text/javascript" src="js/particles.min.js"></script>
-    <script type="text/javascript" src="js/custom.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/custom.js"></script>
   </body>
 </html>

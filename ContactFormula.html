@@ -22,7 +22,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav role="navigation">
+    <nav>
       <div id="menuToggle">
         <input type="checkbox" />
 
@@ -35,13 +35,15 @@
             ><img class="lg-nav-logo" src="assets/logo.svg" alt="nav-logo"
           /></a>
           <ul id="nav-menu">
-            <a class="home" href="index.html"
-              ><li><img class="" src="assets/logo.svg" alt="nav-logo" /></li
-            ></a>
-            <a href="Functionality.html"><li>Functionality</li></a>
-            <a href="Governance.html"><li>Governance</li></a>
-            <a href="About.html"><li>About DFINITY</li></a>
-            <a href="ContactFormula.html"><li>Contact formula</li></a>
+            <li class="home">
+              <a href="index.html"
+                ><img src="assets/logo.svg" alt="nav-logo"
+              /></a>
+            </li>
+            <li><a href="Functionality.html">Functionality</a></li>
+            <li><a href="Governance.html">Governance</a></li>
+            <li><a href="About.html">About DFINITY</a></li>
+            <li><a href="ContactFormula.html">Contact formula</a></li>
           </ul>
         </div>
       </div>
@@ -67,26 +69,26 @@
         <div class="cf-pers-group">
           <div class="input-group">
             <input
-              id="name-input"
+              id="name"
               required
               type="text"
               name="Name"
               autocomplete="off"
               class="input"
             />
-            <label for="Name" class="user-label">Name</label>
+            <label for="name" class="user-label">Name</label>
           </div>
           <span class="cf-splitter"></span>
           <div class="input-group">
             <input
-              id="mail-input"
+              id="mail"
               required
               type="text"
               name="Mail"
               autocomplete="off"
               class="input"
             />
-            <label for="Mail" class="user-label">Mail</label>
+            <label for="mail" class="user-label">Mail</label>
           </div>
         </div>
         <!-- Personal Infos END -->
@@ -96,26 +98,26 @@
         <div class="cf-submission-infos">
           <div class="input-group">
             <input
-              id="submission-input"
+              id="title"
               required
               type="text"
               name="Title"
               autocomplete="off"
               class="input"
             />
-            <label for="Title" class="user-label">Submission Title</label>
+            <label for="title" class="user-label">Submission Title</label>
           </div>
           <div class="cf-splitter"></div>
           <div class="input-group">
             <textarea
-              id="description-input"
+              id="description"
               required
               name="Description"
               class="input big-input"
               cols="40"
               rows="5"
             ></textarea>
-            <label for="Description" class="user-label">Description</label>
+            <label for="description" class="user-label">Description</label>
           </div>
         </div>
         <!-- Submission Infos END -->
@@ -123,15 +125,11 @@
         <!-- Submit buttons -->
         <div class="cf-buttons-flex">
           <div class="button-wrapper">
-            <a href="#"
-              ><button class="btn" type="reset"><span>RESET</span></button></a
-            >
+            <button class="btn" type="reset"><span>RESET</span></button>
           </div>
           <span class="cf-splitter"></span>
           <div class="button-wrapper">
-            <a href="#"
-              ><button class="btn" type="submit"><span>SUBMIT</span></button></a
-            >
+            <button class="btn" type="submit"><span>SUBMIT</span></button>
           </div>
         </div>
         <!-- Submit buttons END -->
@@ -139,21 +137,21 @@
     </section>
 
     <!-- FOOTER -->
-    <div class="footer-container">
+    <footer class="footer-container">
       <ul class="footer-links">
-        <h3 class="footerlist-heading">Pages</h3>
-        <a href="Functionality.html"><li>Functionality</li></a>
-        <a href="Governance.html"><li>Governance</li></a>
-        <a href="About.html"><li>About DFINITY</li></a>
-        <a href="ContactFormula.html"><li>Contact Formula</li></a>
+        <li><h3 class="footerlist-heading">Pages</h3></li>
+        <li><a href="Functionality.html">Functionality</a></li>
+        <li><a href="Governance.html">Governance</a></li>
+        <li><a href="About.html">About DFINITY</a></li>
+        <li><a href="ContactFormula.html">Contact Formula</a></li>
       </ul>
 
       <ul class="footer-links">
-        <h3 class="footerlist-heading">Informational</h3>
-        <a href="Imprint.html"><li>Imprint</li></a>
-        <a href="Privacy.html"><li>Privacy Policy</li></a>
-        <a href="Colophon.html"><li>Colophon</li></a>
-        <a href="./dokumentation/index.html"><li>Documentation</li></a>
+        <li><h3 class="footerlist-heading">Informational</h3></li>
+        <li><a href="Imprint.html">Imprint</a></li>
+        <li><a href="Privacy.html">Privacy Policy</a></li>
+        <li><a href="Colophon.html">Colophon</a></li>
+        <li><a href="dokumentation/index.html">Documentation</a></li>
       </ul>
 
       <p class="disclaimer">
@@ -161,7 +159,7 @@
         only. It is not intended to be a substitute for legal counsel. The
         information is provided without warranty of any kind.
       </p>
-    </div>
+    </footer>
     <!-- FOOTER END -->
   </body>
 </html>

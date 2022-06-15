@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="PagesCSS/ContactFormula/index.css" />
+    <link rel="stylesheet" href="index.css" />
     <!-- CSS END -->
 
     <!-- Fonts -->
@@ -22,7 +22,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav role="navigation">
+    <nav>
       <div>
         <input type="checkbox" />
 
@@ -32,14 +32,16 @@
 
         <div>
           <a href="index.html"><img src="assets/logo.svg" alt="nav-logo" /></a>
-          <ul id="nav-menu">
-            <a href="index.html"
-              ><li><img src="assets/logo.svg" alt="nav-logo" /></li
-            ></a>
-            <a href="Functionality.html"><li>Functionality</li></a>
-            <a href="Governance.html"><li>Governance</li></a>
-            <a href="About.html"><li>About DFINITY</li></a>
-            <a href="ContactFormula.html"><li>Contact formula</li></a>
+          <ul>
+            <li>
+              <a href="index.html"
+                ><img src="assets/logo.svg" alt="nav-logo"
+              /></a>
+            </li>
+            <li><a href="Functionality.html">Functionality</a></li>
+            <li><a href="Governance.html">Governance</a></li>
+            <li><a href="About.html">About DFINITY</a></li>
+            <li><a href="ContactFormula.html">Contact formula</a></li>
           </ul>
         </div>
       </div>
@@ -47,83 +49,85 @@
     <!-- Navbar END -->
 
     <!-- Header section  -->
-    <header>
-      <h1><span>SUBMIT</span> YOUR REQUEST</h1>
-      <p>
-        For any questions or concerns, please do not hesitate to contact us. We
-        will process your request as soon as possible!
+    <header class="section-padding">
+      <h1 class="cf-page-heading"><span>SUBMIT</span> YOUR REQUEST</h1>
+      <p class="heading-subtitle">
+        For any questions or concerns, please do not hesitate to contact us.
+        <br />
+        We will process your request as soon as possible!
       </p>
     </header>
     <!-- Header section END -->
 
     <!-- Form section -->
-    <section>
-      <form action="https://www.inf.fh-flensburg.de/echo/" method="post">
+    <section class="section-padding">
+      <form action="https://www.inf.hs-flensburg.de/echo/" method="post">
         <!-- Personal Infos -->
-        <h2>PERSONAL INFO</h2>
-        <div>
-          <div>
+        <h2 class="cf-form-group-heading">PERSONAL INFO</h2>
+        <div class="cf-pers-group">
+          <div class="input-group">
             <input
+              id="name"
               required
               type="text"
-              name="text"
+              name="Name"
               autocomplete="off"
-              ="input"
+              class="input"
             />
-            <label>Name</label>
+            <label for="name" class="user-label">Name</label>
           </div>
-          <span></span>
-          <div>
+          <span class="cf-splitter"></span>
+          <div class="input-group">
             <input
+              id="mail"
               required
               type="text"
-              name="text"
+              name="Mail"
               autocomplete="off"
-              ="input"
+              class="input"
             />
-            <label>Mail</label>
+            <label for="mail" class="user-label">Mail</label>
           </div>
         </div>
         <!-- Personal Infos END -->
 
         <!-- Submission Infos -->
-        <h2>SUBMISSION INFOS</h2>
-        <div>
-          <div>
+        <h2 class="cf-form-group-heading">SUBMISSION INFOS</h2>
+        <div class="cf-submission-infos">
+          <div class="input-group">
             <input
+              id="title"
               required
               type="text"
-              name="text"
+              name="Title"
               autocomplete="off"
-              ="input"
+              class="input"
             />
-            <label>Submission Title</label>
+            <label for="title" class="user-label">Submission Title</label>
           </div>
-          <div></div>
-          <div>
+          <div class="cf-splitter"></div>
+          <div class="input-group">
             <textarea
-              required="input big-input"
               id="description"
+              required
+              name="Description"
+              class="input big-input"
               cols="40"
               rows="5"
             ></textarea>
-            <label>Description</label>
+            <label for="description" class="user-label">Description</label>
           </div>
         </div>
         <!-- Submission Infos END -->
 
         <!-- Submit buttons -->
-        <div>
-          <div>
-            <a href="https://dashboard.internetcomputer.org/governance"
-              ><button type="reset"><span>RESET</span></button></a
-            >
+        <div class="cf-buttons-flex">
+          <div class="button-wrapper">
+            <button class="btn" type="reset"><span>RESET</span></button>
           </div>
-          <span></span>
-          <div>
-            <a href="https://dashboard.internetcomputer.org/governance"
-              ><button type="submit"><span>SUBMIT</span></button></a
-            >
+          <span class="cf-splitter"></span>
+          <div class="button-wrapper">
+            <button class="btn" type="submit"><span>SUBMIT</span></button>
           </div>
         </div>
         <!-- Submit buttons END -->
@@ -131,19 +135,21 @@
     </section>
 
     <!-- FOOTER -->
-    <div>
+    <footer>
       <ul>
-        <h3>Pages</h3>
-        <a href="Functionality.html"><li>Functionality</li></a>
-        <a href="Governance.html"><li>Governance</li></a>
-        <a href="About.html"><li>About DFINITY</li></a>
+        <li><h3>Pages</h3></li>
+        <li><a href="Functionality.html">Functionality</a></li>
+        <li><a href="Governance.html">Governance</a></li>
+        <li><a href="About.html">About DFINITY</a></li>
+        <li><a href="ContactFormula.html">Contact Formula</a></li>
       </ul>
 
       <ul>
-        <h3>Informational</h3>
-        <a href="Imprint.html"><li>Imprint</li></a>
-        <a href="Governance.html"><li>Privacy Policy</li></a>
-        <a href="Colophon.html"><li>Colophon</li></a>
+        <li><h3>Informational</h3></li>
+        <li><a href="Imprint.html">Imprint</a></li>
+        <li><a href="Privacy.html">Privacy Policy</a></li>
+        <li><a href="Colophon.html">Colophon</a></li>
+        <li><a href="dokumentation/index.html">Documentation</a></li>
       </ul>
 
       <p>
@@ -151,7 +157,7 @@
         only. It is not intended to be a substitute for legal counsel. The
         information is provided without warranty of any kind.
       </p>
-    </div>
+    </footer>
     <!-- FOOTER END -->
   </body>
 </html>

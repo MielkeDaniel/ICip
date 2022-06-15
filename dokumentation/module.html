@@ -23,7 +23,7 @@
 
   <body>
     <!-- Navbar -->
-    <nav role="navigation">
+    <nav>
       <div id="menuToggle">
         <input type="checkbox" />
 
@@ -32,17 +32,19 @@
         <span></span>
 
         <div class="lg-topbar">
-          <a class="navlogo-container" href="../index.html"
+          <a class="navlogo-container" href="index.html"
             ><img class="lg-nav-logo" src="../assets/logo.svg" alt="nav-logo"
           /></a>
           <ul id="nav-menu">
-            <a class="home" href="../index.html"
-              ><li><img class="" src="../assets/logo.svg" alt="nav-logo" /></li
-            ></a>
-            <a href="../Functionality.html"><li>Functionality</li></a>
-            <a href="../Governance.html"><li>Governance</li></a>
-            <a href="../About.html"><li>About DFINITY</li></a>
-            <a href="../ContactFormula.html"><li>Contact formula</li></a>
+            <li class="home">
+              <a href="index.html"
+                ><img src="../assets/logo.svg" alt="nav-logo"
+              /></a>
+            </li>
+            <li><a href="../Functionality.html">Functionality</a></li>
+            <li><a href="../Governance.html">Governance</a></li>
+            <li><a href="../About.html">About DFINITY</a></li>
+            <li><a href="../ContactFormula.html">Contact formula</a></li>
           </ul>
         </div>
       </div>
@@ -56,36 +58,42 @@
     <!-- Hero Section END -->
 
     <!-- Section One -->
-    <div class="hero-section-two">
-      <h1 class="hero-heading-two">Hero Section Modul</h1>
-    </div>
+    <section class="hero-section-two">
+      <h2 class="hero-heading-two">Hero Section Modul</h2>
+    </section>
     <!-- Section One END -->
 
     <!-- Section Two -->
-    <div>
+    <section>
       <h3 class="section-heading">Buttons</h3>
       <div class="section-grid">
         <div class="button-wrapper">
-          <a href="./farben.html"
-            ><button class="btn"><span>Farben</span></button></a
-          >
+          <a href="./farben.html">
+            <div class="btn">
+              <span>Farben</span>
+            </div>
+          </a>
         </div>
         <div class="button-wrapper">
-          <a href="./zeitleiste.html"
-            ><button class="btn"><span>Zeitleiste</span></button></a
-          >
+          <a href="./zeitleiste.html">
+            <div class="btn">
+              <span>Zeitleiste</span>
+            </div>
+          </a>
         </div>
         <div class="button-wrapper">
-          <a href="./index.html"
-            ><button class="btn"><span>Dokumentation</span></button></a
-          >
+          <a href="./index.html">
+            <div class="btn">
+              <span>Dokumentation</span>
+            </div>
+          </a>
         </div>
       </div>
-    </div>
+    </section>
     <!-- Section Two END -->
 
     <!-- Section Three -->
-    <div>
+    <section>
       <h3 class="section-heading">Input Felder</h3>
       <div class="input-fields">
         <div class="input-group">
@@ -110,11 +118,11 @@
           <label class="user-label">Description</label>
         </div>
       </div>
-    </div>
+    </section>
     <!-- Section Three END -->
 
     <!-- Section Four -->
-    <div>
+    <section>
       <h3 class="section-heading">Liste</h3>
       <div class="list-padding">
         <ul class="section-one-grid">
@@ -124,19 +132,19 @@
           <li class="hover-effect grid-item">Just a List</li>
         </ul>
       </div>
-    </div>
+    </section>
     <!-- Section Four END -->
 
     <!-- Section Five -->
-    <div>
+    <section>
       <h3 class="section-heading">Video</h3>
       <div class="video-container">
         <iframe
+          class="fc-video"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/hWnsluxmRqc"
           title="YouTube video player"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
@@ -154,11 +162,11 @@
           >Learn More</a
         >
       </p>
-    </div>
+    </section>
     <!-- Section Five END -->
 
     <!-- Section Six -->
-    <div>
+    <section>
       <h3 class="section-heading">Text</h3>
       <div class="section-padding">
         <h3 class="section-six-heading">Artikelanfang</h3>
@@ -174,17 +182,17 @@
           takimata sanctus est Lorem ipsum dolor sit amet.
         </p>
       </div>
-    </div>
+    </section>
     <!-- Section Six END -->
 
     <!-- Section Seven -->
-    <div class="section-three section-padding">
+    <section class="section-three section-padding">
       <h3 class="section-heading">RUNNING PROJECTS ON THE INTERNET COMPUTER</h3>
 
       <!-- Projects list -->
       <ul class="projects-container">
         <!-- Project -->
-        <section class="card">
+        <li class="card">
           <div class="card-thumb">
             <a href="#"><img src="../assets/Images/fleek-logo.png" alt="" /></a>
           </div>
@@ -202,10 +210,10 @@
               Computer
             </p>
           </div>
-        </section>
+        </li>
         <!-- Project END -->
         <!-- Project -->
-        <section class="card">
+        <li class="card">
           <div class="card-thumb">
             <a href="#"><img src="../assets/Images/oc-logo.png" alt="" /></a>
           </div>
@@ -217,58 +225,61 @@
                   Chat with others on the Internet Computer-Blockchain
                 </p>
               </header>
-           </a>
+            </a>
             <p class="card-description">
               OpenChat, an app, that runs end-to-end on the Internet Computer
               blockchain.
             </p>
           </div>
-        </section>
+        </li>
         <!-- Project END -->
         <!-- Project -->
-        <section class="card">
+        <li class="card">
           <div class="card-thumb">
             <a href="#"
               ><img src="../assets/Images/motoko-logo.5b9112fe.png" alt=""
             /></a>
           </div>
           <div class="card-body">
-        <a href="https://m7sm4-2iaaa-aaaab-qabra-cai.raw.ic0.app/">
+            <a href="https://m7sm4-2iaaa-aaaab-qabra-cai.raw.ic0.app/">
               <header>
                 <h2 class="card-title">MOTOKO PLAYGROUND</h2>
-                <p class="card-subtitle">An IDE for developers to learn Motoko</p>
+                <p class="card-subtitle">
+                  An IDE for developers to learn Motoko
+                </p>
               </header>
-        </a>
+            </a>
             <p class="card-description">
               Motoko is a simple, yet powerful, programming language, with an
               easy syntax.
             </p>
           </div>
-        </section>
+        </li>
         <!-- Project END -->
         <!-- Project -->
-        <section class="card">
+        <li class="card">
           <div class="card-thumb">
-            <a href=""><img src="../assets/Images/ii-logo.webp" alt="" />
+            <a href=""><img src="../assets/Images/ii-logo.webp" alt="" /></a>
           </div>
           <div class="card-body">
-            <a href="https://internetcomputer.org/docs/current/tokenomics/identity-auth/auth-how-to/">
-            <header>
-              <h2 class="card-title">INTERNET IDENTITY</h2>
-              <p class="card-subtitle">Stay online, without being tracked</p>
-            </header>
+            <a
+              href="https://internetcomputer.org/docs/current/tokenomics/identity-auth/auth-how-to/"
+            >
+              <header>
+                <h2 class="card-title">INTERNET IDENTITY</h2>
+                <p class="card-subtitle">Stay online, without being tracked</p>
+              </header>
             </a>
             <p class="card-description">
               Internet Identity allows you to log on to the Internet computer
               without identifying information.
             </p>
           </div>
-        </section>
+        </li>
         <!-- Project END -->
-        
       </ul>
       <!-- Projects list END -->
-    </div>
+    </section>
     <!-- Section Seven END -->
 
     <!-- Section Eight -->
@@ -286,24 +297,24 @@
         </p>
       </header>
     </div>
-      <!-- Section Eight END -->
+    <!-- Section Eight END -->
 
     <!-- FOOTER -->
     <footer class="footer-container">
       <ul class="footer-links">
-        <h3 class="footerlist-heading">Pages</h3>
-        <a href="../Functionality.html"><li>Functionality</li></a>
-        <a href="../Governance.html"><li>Governance</li></a>
-        <a href="../About.html"><li>About DFINITY</li></a>
-        <a href="../ContactFormula.html"><li>Contact Formula</li></a>
+        <li><h3 class="footerlist-heading">Pages</h3></li>
+        <li><a href="../Functionality.html">Functionality</a></li>
+        <li><a href="../Governance.html">Governance</a></li>
+        <li><a href="../About.html">About DFINITY</a></li>
+        <li><a href="../ContactFormula.html">Contact Formula</a></li>
       </ul>
 
       <ul class="footer-links">
-        <h3 class="footerlist-heading">Informational</h3>
-        <a href="../Imprint.html"><li>Imprint</li></a>
-        <a href="../Privacy.html"><li>Privacy Policy</li></a>
-        <a href="../Colophon.html"><li>Colophon</li></a>
-        <a href="./index.html"><li>Documentation</li></a>
+        <li><h3 class="footerlist-heading">Informational</h3></li>
+        <li><a href="../Imprint.html">Imprint</a></li>
+        <li><a href="../Privacy.html">Privacy Policy</a></li>
+        <li><a href="../Colophon.html">Colophon</a></li>
+        <li><a href="index.html">Documentation</a></li>
       </ul>
 
       <p class="disclaimer">
@@ -312,7 +323,6 @@
         information is provided without warranty of any kind.
       </p>
     </footer>
-
     <!-- FOOTER END -->
   </body>
 </html>

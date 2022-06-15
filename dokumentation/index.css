@@ -486,6 +486,7 @@ img {
 /* ---------------------- Burgermenu END ---------------------- */
 
 /* ---------------------- Navbar ---------------------- */
+/* -------------------------------- NAVBARCSS  ------------------------------------------------------------------------------------------------ */
 .lg-nav-logo {
   display: none;
 }
@@ -516,15 +517,16 @@ img {
     display: flex;
   }
 
-  #nav-menu li {
+  #nav-menu li a {
     font-size: 1.3rem;
     transition: all 150ms;
     color: rgb(64, 64, 64);
     padding-right: 4rem;
+    cursor: pointer;
   }
 
-  #nav-menu li:hover {
-    color: #b19c78;
+  #nav-menu li a:hover {
+    color: #7e6f55;
   }
 
   #menuToggle input {
@@ -550,6 +552,7 @@ img {
 .disclaimer {
   width: 50%;
   color: rgb(162, 162, 162);
+  text-align: center;
   margin: auto;
   margin-bottom: 2rem;
 }
@@ -575,18 +578,37 @@ img {
   align-items: center;
 }
 
-.footer-links h3 {
+.footer-links li {
+  padding: 0.3rem;
+}
+
+.footer-links li h3 {
   padding-bottom: 1rem;
 }
 
-.footer-links a {
-  padding: 0.5rem;
+.footer-links li a {
   color: rgb(233, 233, 233);
   transition: all 150ms;
 }
 
-.footer-links a:hover {
+.footer-links li a:hover {
   color: #cdb17a;
+}
+
+/* ---------------------- LG-Footer ---------------------- */
+
+@media (min-width: 1100px) {
+  .footer-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .disclaimer {
+    width: 30%;
+    margin: 0;
+    padding-left: 5rem;
+    text-align: start;
+  }
 }
 
 /* ---------------------- LG-Footer ---------------------- */

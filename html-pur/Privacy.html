@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="PagesCSS/PrivacyPolicy/index.css" />
+    <link rel="stylesheet" href="index.css" />
     <!-- CSS END -->
 
     <!-- Fonts -->
@@ -22,7 +22,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav role="navigation">
+    <nav>
       <div>
         <input type="checkbox" />
 
@@ -33,13 +33,15 @@
         <div>
           <a href="index.html"><img src="assets/logo.svg" alt="nav-logo" /></a>
           <ul>
-            <a href="index.html"
-              ><li><img src="assets/logo.svg" alt="nav-logo" /></li
-            ></a>
-            <a href="Functionality.html"><li>Functionality</li></a>
-            <a href="Governance.html"><li>Governance</li></a>
-            <a href="About.html"><li>About DFINITY</li></a>
-            <a href="ContactFormula.html"><li>Contact formula</li></a>
+            <li>
+              <a href="index.html"
+                ><img src="assets/logo.svg" alt="nav-logo"
+              /></a>
+            </li>
+            <li><a href="Functionality.html">Functionality</a></li>
+            <li><a href="Governance.html">Governance</a></li>
+            <li><a href="About.html">About DFINITY</a></li>
+            <li><a href="ContactFormula.html">Contact formula</a></li>
           </ul>
         </div>
       </div>
@@ -48,9 +50,9 @@
 
     <!-- Imprint -->
     <header>
-      <h1>PRIVACY POLICY</h1>
+      <h1 class="privacy-heading">PRIVACY POLICY</h1>
     </header>
-    <section>
+    <section class="privacy section-padding">
       <p>
         If you have additional questions or require more information about our
         Privacy Policy, do not hesitate to contact us.
@@ -118,7 +120,7 @@
         Under the CCPA, among other rights, California consumers have the right
         to:
       </p>
-      <ul>
+      <ul class="request-list">
         <li>
           Request that a business that collects a consumer's personal data
           disclose the categories and specific pieces of personal data that a
@@ -179,19 +181,21 @@
     <!-- Imprint END -->
 
     <!-- FOOTER -->
-    <div>
+    <footer>
       <ul>
-        <h3>Pages</h3>
-        <a href="Functionality.html"><li>Functionality</li></a>
-        <a href="Governance.html"><li>Governance</li></a>
-        <a href="About.html"><li>About DFINITY</li></a>
+        <li><h3>Pages</h3></li>
+        <li><a href="Functionality.html">Functionality</a></li>
+        <li><a href="Governance.html">Governance</a></li>
+        <li><a href="About.html">About DFINITY</a></li>
+        <li><a href="ContactFormula.html">Contact Formula</a></li>
       </ul>
 
       <ul>
-        <h3>Informational</h3>
-        <a href="Imprint.html"><li>Imprint</li></a>
-        <a href="Privacy.html"><li>Privacy Policy</li></a>
-        <a href="Colophon.html"><li>Colophon</li></a>
+        <li><h3>Informational</h3></li>
+        <li><a href="Imprint.html">Imprint</a></li>
+        <li><a href="Privacy.html">Privacy Policy</a></li>
+        <li><a href="Colophon.html">Colophon</a></li>
+        <li><a href="dokumentation/index.html">Documentation</a></li>
       </ul>
 
       <p>
@@ -199,7 +203,7 @@
         only. It is not intended to be a substitute for legal counsel. The
         information is provided without warranty of any kind.
       </p>
-    </div>
+    </footer>
     <!-- FOOTER END -->
   </body>
 </html>
