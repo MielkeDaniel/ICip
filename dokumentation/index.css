@@ -458,7 +458,7 @@ img {
     height: 200vh;
     margin: -100px 0 0 -50px;
     padding-top: 100px;
-    background: #dbdbdb;
+    background: #262626;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     transform-origin: 0% 0%;
@@ -1242,6 +1242,10 @@ input[type="checkbox"] {
   max-width: 70%;
   max-height: 100%;
   padding: 2rem;
+  padding: 1.5px;
+  background: #c4a268;
+  border-radius: 1rem;
+  margin-top: 2rem;
 }
 
 .section-eight {
