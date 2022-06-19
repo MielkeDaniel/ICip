@@ -374,13 +374,13 @@ img {
 
 /* ---------------------- (P)Reset-CSS END ---------------------- */
 
-/* ---------------------- Burgermenu ---------------------- */
+/* -------------------------------- BURGERMENUCSS  ------------------------------------------------------------------------------------------------ */
 /* Wir wissen, dass wir mobile first entwickeln sollen, und demnach auch gerne so gut es geht nur mit min-width queries arbeiten sollen. 
-       In diesem Falle ist es jedoch wesentlich einfacher die beiden Arten der nav (Topbar und Sidebar und Hamburger-Dropout) getrennt voneinander 
-       zu stylen, da sie in ihrer Funktionalität sehr unterschiedlich sind und wenig gemeinsame haben, was man mit einem späteren min-width query 
-       im großen Layout alleine nur schwer und mit großem Mehraufwand hinbekommt. 
-       Demnach arbeiten wir hier ausnahmsweise mit max-width im Small- und mit mind-width im Large-Layout.     
-    */
+   In diesem Falle ist es jedoch wesentlich einfacher die beiden Arten der nav (Topbar und Sidebar und Hamburger-Dropout) getrennt voneinander 
+   zu stylen, da sie in ihrer Funktionalität sehr unterschiedlich sind und wenig gemeinsame haben, was man mit einem späteren min-width query 
+   im großen Layout alleine nur schwer und mit großem Mehraufwand hinbekommt. 
+   Demnach arbeiten wir hier ausnahmsweise mit max-width im Small- und mit mind-width im Large-Layout.     
+*/
 @media (max-width: 1099px) {
   #menuToggle {
     display: block;
@@ -394,7 +394,7 @@ img {
 
   #menuToggle a {
     text-decoration: none;
-    color: rgb(44, 44, 44);
+    color: rgb(204, 204, 204);
     transition: color 0.3s ease;
   }
 
@@ -440,7 +440,7 @@ img {
   #menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
-    background: #232323;
+    background: #cccccc;
   }
 
   #menuToggle input:checked ~ span:nth-last-child(3) {
@@ -1241,9 +1241,8 @@ input[type="checkbox"] {
 .zeitleiste-image {
   max-width: 70%;
   max-height: 100%;
-  padding: 2rem;
-  padding: 1.5px;
-  background: #c4a268;
+  margin: 2rem;
+  border: 1px solid #c4a268;
   border-radius: 1rem;
   margin-top: 2rem;
 }
